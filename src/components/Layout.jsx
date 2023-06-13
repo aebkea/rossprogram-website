@@ -39,7 +39,7 @@ export const navigation = [
   {
     title: 'Alumni',
     links: [
-      { title: 'CacheAdvance.predict()', href: '/docs/cacheadvance-predict' },
+      { title: 'About', href: '/alumni' },
       { title: 'CacheAdvance.flush()', href: '/docs/cacheadvance-flush' },
       { title: 'CacheAdvance.revert()', href: '/docs/cacheadvance-revert' },
       { title: 'CacheAdvance.regret()', href: '/docs/cacheadvance-regret' },
