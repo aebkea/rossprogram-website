@@ -34,13 +34,6 @@ export const navigation = [
     links: [
       { title: 'About', href: '/counselors' },
       { title: 'To Apply', href: '/counselors/to-apply' },
-      { title: 'Temporal paradoxes', href: '/docs/temporal-paradoxes' },
-      { title: 'Testing', href: '/docs/testing' },
-      { title: 'Compile-time caching', href: '/docs/compile-time-caching' },
-      {
-        title: 'Predictive data generation',
-        href: '/docs/predictive-data-generation',
-      },
     ],
   },
   {
