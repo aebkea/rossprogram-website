@@ -22,6 +22,7 @@ export const navigation = [
     title: 'Students',
     links: [
       { title: 'About', href: '/students' },
+      { title: 'FAQ', href: '/students/faq' },
       {
         title: 'Course Topics',
         href: '/students/course-topics',
