@@ -19,15 +19,15 @@ export const navigation = [
     ],
   },
   {
-    title: 'Students',
+    title: 'Participants',
     links: [
-      { title: 'About', href: '/students' },
-      { title: 'FAQ', href: '/students/faq' },
+      { title: 'About', href: '/participants' },
+      { title: 'FAQ', href: '/participants/faq' },
       {
         title: 'Course Topics',
-        href: '/students/course-topics',
+        href: '/participants/course-topics',
       },
-      { title: 'To Apply', href: '/students/to-apply' },
+      { title: 'To Apply', href: '/participants/to-apply' },
     ],
   },
   {
