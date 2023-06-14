@@ -7,7 +7,7 @@ The first-year course in the Ross Program is organized around a series of daily 
 
 This spiraling of concepts is summarized in the Ross Program's motto:
 
-"Think deeply about simple things."
+> Think deeply about simple things.
 
 To realize this idea, we concentrate on one central theme, rather than touching lightly on many disjoint mathematical topics. Ross students spend the entire summer focusing their attention on integers and their properties.
 
