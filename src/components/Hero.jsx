@@ -52,8 +52,7 @@ export function Hero() {
                 Ross Mathematics Program
               </p>
               <p className="mt-3 text-2xl tracking-tight text-slate-400">
-                Cache every single thing your app could ever do ahead of time,
-                so your code never even has to run at all.
+                Think deeply about simple things.
               </p>
               {/* <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
                 <Button href="/">Get started</Button>
