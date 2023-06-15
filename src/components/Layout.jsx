@@ -251,7 +251,7 @@ export function Layout({ children, title, tableOfContents }) {
                               : 'font-normal text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-300'
                           )}
                         >
-                          {section.title}
+                          {section.shortTitle == null ? section.title : section.shortTitle}
                         </Link>
                       </h3>
                       {section.children.length > 0 && (
@@ -269,7 +269,7 @@ export function Layout({ children, title, tableOfContents }) {
                                     : 'hover:text-slate-600 dark:hover:text-slate-300'
                                 }
                               >
-                                {subSection.title}
+                                {subSection.shortTitle == null ? subSection.title : subSection.shortTitle}
                               </Link>
                             </li>
                           ))}

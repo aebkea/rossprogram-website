@@ -68,7 +68,7 @@ The dormitory is locked, accessible only by key card. Each suite has its own loc
 
 Ross counselors and students live in the same dormitory. Counselors certainly provide supervision, but students must be mature enough to choose what and when they eat, do their own laundry, keep themselves and their rooms clean, and get enough sleep. If someone is not mature enough to do these things, or distracts other students from their mathematical work, we arrange for that student to leave the program and return home.
 
-### What do they eat? Where do they eat? How often do they eat? Are there any accomodations for my child's special dietary needs, such as diabetes, peanut allergy, gluten intolderance, vegetarianism, etc?
+### What do they eat? Where do they eat? How often do they eat? Are there any accomodations for my child's special dietary needs, such as diabetes, peanut allergy, gluten intolderance, vegetarianism, etc? {% shortHeading="What do they eat?" %}
 
 Student fees include the cost of three meals per day at the campus cafeteria. Upon request, the cafeteria can provide foods for students who are on restrictive diets. Some foods (e.g. pizza) can be ordered from nearby restaurants and delivered to the dorm.
 
@@ -78,7 +78,7 @@ Student fees include the cost of three meals per day at the campus cafeteria. Up
 
 Sheets and a pillowcase are provided. Students need to bring or purchase their own towels and pillows, as well as shampoo, soap, etc. Students should also bring clothes appropriate for a warm Columbus summer, in air-conditioned buildings. It’s a good idea to bring a jacket and rain gear. A certain amount of cash is needed for items like snacks and souvenirs.
 
-### How do most students handle money – cash, credit cards, ATMs?
+### How do most students handle money – cash, credit cards, ATMs? {% shortHeading="How do most students handle money?" %}
 
 Nearby stores accept all major American credit cards. Students may use ATMs to withdraw cash from home accounts. If there is a problem, one of the staff members can take students to a bank to help them get a cash advance, cash personal checks, etc.
 
@@ -90,13 +90,13 @@ Off-campus trips will be organized by Ross staff members. Students participating
 
 There are stores nearby, but students should not leave the campus unless accompanied by a counselor. If special items are needed, a counselor will arrange to transport students to a store.
 
-### Are laptop computers allowed? What about other electronic devices?
+### Are laptop computers allowed? What about other electronic devices? {% shortHeading="Are electronic devices allowed?" %}
 
 Mathematical ideas presented in the Ross Program are investigated with pencil and paper. We ask students to refrain from using their phones. Students are NOT allowed to bring electronic tablets, TV sets, video game systems, DVD players, etc.
 
 ## Transportation Questions
 
-### What is the transportation around campus? e.g. to/from lectures and the dorm?
+### What is the transportation around campus? e.g. to/from lectures and the dorm? {% shortHeading="What is the transportation around campus?" %}
 
 All travel on campus is by walking.
 
@@ -104,11 +104,11 @@ All travel on campus is by walking.
 
 Lectures and seminars will be held in campus buildings within a few blocks of the dormitory.
 
-### Is there transportation to/from the airport if an attendee flies in or out unaccompanied?
+### Is there transportation to/from the airport if an attendee flies in or out unaccompanied? {% shortHeading="Is there transportation to/from the airport?" %}
 
 Students who fly to attend the program at Ross/Ohio will arrive at the John Glenn Columbus International Airport (CMH). Students who fly to attend the program at Ross/Indiana will arrive at the Indianopolis International Airport (IND). Ross staff members will meet arriving students in the terminal, and make arrangements to transport them to the dormitory. At the end of the summer session, Program staff will arrange for transportation back to the airport.
 
-### Do some students bring cars? Are there restrictions on students riding with other students?
+### Do some students bring cars? Are there restrictions on students riding with other students? {% shortHeading="Do some students bring cars?" %}
 
 First-year students are not allowed to bring cars.
 
@@ -145,7 +145,7 @@ Counselors organize some informal activities like Ultimate Frisbee games on Frid
 Yes.  We are planning some off-campus trips.  Students 
 might be asked to pay a small fee in order to join the organized trips.
 
-### Are parents allowed/ encouraged to make mid-session visits to campus?
+### Are parents allowed or encouraged to make mid-session visits to campus?
 
 We strongly discourage overnight absences for Ross students. Students
 build up momentum working full-time on hard problems. That momentum is
@@ -205,7 +205,7 @@ students from other countries, including Botswana, Canada, Chile, France,
 Germany, Greece, Guatemala, Israel, Italy, Japan, Kyrgyzstan, Mexico, Russia,
 Serbia, Singapore, Spain, Taiwan, and Turkey. 
 
-### How does the Ross Program compare to other summer math programs like PROMYS, Canada/USA Mathcamp, HCSSiM, SUMaC, HSMC, etc?
+### How does the Ross Program compare to other summer math programs like PROMYS, Canada/USA Mathcamp, HCSSiM, SUMaC, HSMC, etc? {% shortHeading="How does the Ross Program compare to other summer math programs?" %}
 
 Prominent summer math programs for high school students are listed on various sites
 A key feature of the Ross Program is that the students concentrate deeply on just one

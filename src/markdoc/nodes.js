@@ -24,6 +24,15 @@ const nodes = {
       },
     },
   },
+  heading: {
+    ...defaultNodes.heading,
+    attributes: {
+      ...defaultNodes.heading.attributes,
+      'shortHeading': {
+        type: String,
+      }
+    }
+  }
 }
 
 export default nodes

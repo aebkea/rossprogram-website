@@ -23,6 +23,7 @@ function collectHeadings(nodes, slugify = slugifyWithCounter()) {
   for (let node of nodes) {
     if (node.name === 'h2' || node.name === 'h3') {
       let title = getNodeText(node)
+      let shortTitle = node.attributes['shortHeading']
       if (title) {
         let id = slugify(title)
         node.attributes.id = id
@@ -35,9 +36,10 @@ function collectHeadings(nodes, slugify = slugifyWithCounter()) {
           sections[sections.length - 1].children.push({
             ...node.attributes,
             title,
+            shortTitle,
           })
         } else {
-          sections.push({ ...node.attributes, title, children: [] })
+          sections.push({ ...node.attributes, title, shortTitle, children: [] })
         }
       }
     }
