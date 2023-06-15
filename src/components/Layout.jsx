@@ -188,7 +188,7 @@ export function Layout({ children, title, tableOfContents }) {
                   </p>
                 )}
                 {title && (
-                  <h1 className="font-display text-3xl tracking-tight text-slate-900 dark:text-white">
+                  <h1 className="font-display font-medium text-3xl tracking-tight text-slate-900 dark:text-white">
                     {title}
                   </h1>
                 )}
