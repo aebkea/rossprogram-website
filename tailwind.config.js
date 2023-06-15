@@ -23,7 +23,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Rubik', ...defaultTheme.fontFamily.sans],
-        display: ['Lexend', ...defaultTheme.fontFamily.sans],
+        display: ['Roboto Slab', ...defaultTheme.fontFamily.sans],
       },
       maxWidth: {
         '8xl': '88rem',
