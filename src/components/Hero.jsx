@@ -48,7 +48,7 @@ export function Hero() {
               priority
             />
             <div className="relative">
-              <p className="inline bg-gradient-to-r from-fuchsia-200 via-violet-400 to-fuchsia-200 bg-clip-text font-display text-5xl tracking-tight text-transparent">
+              <p className="inline bg-gradient-to-r from-fuchsia-200 via-violet-400 to-fuchsia-200 bg-clip-text font-display font-medium text-5xl tracking-tight text-transparent">
                 Ross Mathematics Program
               </p>
               <p className="mt-3 text-2xl tracking-tight text-slate-400">
