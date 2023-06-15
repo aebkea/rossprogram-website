@@ -21,3 +21,20 @@
   font-named-instance: 'Italic';
   src: url('/fonts/Inter-italic.var.woff2') format('woff2');
 }
+@font-face {
+  font-family: 'Rubik';
+  font-weight: 300 900;
+  font-display: block;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('/fonts/Rubik-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-weight: 300 900;
+  font-display: block;
+  font-style: italic;
+  font-named-instance: 'Italic';
+  src: url('/fonts/Rubik-Italic-VariableFont_wght.ttf') format('truetype');
+}
