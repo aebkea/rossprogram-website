@@ -5,19 +5,19 @@ import { Icon } from '@/components/Icon'
 const styles = {
   note: {
     container:
-      'bg-sky-50 dark:bg-slate-800/60 dark:ring-1 dark:ring-slate-300/10',
+      'bg-violet-50 dark:bg-slate-800/60 dark:ring-1 dark:ring-slate-300/10',
     line:
-      'bg-sky-200 dark:bg-sky-800',
-    title: 'text-sky-900 dark:text-sky-400',
-    body: 'text-sky-800 [--tw-prose-background:theme(colors.sky.50)] prose-a:text-sky-900 prose-code:text-sky-900 dark:text-slate-300 dark:prose-code:text-slate-300',
+      'bg-violet-200 dark:bg-violet-800',
+    title: 'text-violet-900 dark:text-violet-400',
+    body: 'text-violet-800 [--tw-prose-background:theme(colors.violet.50)] prose-a:text-violet-900 prose-code:text-violet-900 dark:text-slate-300 dark:prose-code:text-slate-300',
   },
   warning: {
     container:
-      'bg-amber-50 dark:bg-slate-800/60 dark:ring-1 dark:ring-slate-300/10',
+      'bg-yellow-50 dark:bg-slate-800/60 dark:ring-1 dark:ring-slate-300/10',
     line:
-      'bg-amber-200 dark:bg-amber-800',
-    title: 'text-amber-900 dark:text-amber-500',
-    body: 'text-amber-800 [--tw-prose-underline:theme(colors.amber.400)] [--tw-prose-background:theme(colors.amber.50)] prose-a:text-amber-900 prose-code:text-amber-900 dark:text-slate-300 dark:[--tw-prose-underline:theme(colors.sky.700)] dark:prose-code:text-slate-300',
+      'bg-yellow-200 dark:bg-yellow-800',
+    title: 'text-yellow-900 dark:text-yellow-500',
+    body: 'text-yellow-800 [--tw-prose-underline:theme(colors.yellow.400)] [--tw-prose-background:theme(colors.yellow.50)] prose-a:text-yellow-900 prose-code:text-yellow-900 dark:text-slate-300 dark:[--tw-prose-underline:theme(colors.violet.700)] dark:prose-code:text-slate-300',
   },
 }
 
