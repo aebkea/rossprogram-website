@@ -166,28 +166,61 @@ export function Hero() {
                     </Highlight>
                   </div>
                 </div> */}
-                <div className="p-4 font-display text-transparent bg-gradient-to-r from-slate-50 via-white to-slate-50 bg-clip-text">
+                <div className="px-8 py-4 font-display text-transparent bg-gradient-to-r from-slate-50 via-white to-slate-50 bg-clip-text">
                   <p>
-                    Claim: <Math>{'a\\cdot 0 = 0 \\ \\forall a\\in\\mathbb{Z}'}</Math>
-                  </p>
-                  <p>
-                    Proof:
+                    Claim: <Math>{'a0 = 0 \\ \\forall a\\in\\mathbb{Z}'}</Math>. Proof:
                   </p>
                   <div className="flex flex-row divide-x">
-                    <div className="pr-4">
+                    <div className="pr-4 text-right">
                       <p>
                         <Math>a0 = a(0+0)</Math>
                       </p>
                       <p>
                         <Math>a0 = a0 + a0</Math>
                       </p>
+                      <p>
+                        <Math>a0 + (-(a0)) = (a0 + a0) + (-(a0))</Math>
+                      </p>
+                      <p>
+                        <Math>0 = (a0 + a0) + (-(a0))</Math>
+                      </p>
+                      <p>
+                        <Math>0 = a0 + (a0 + (-(a0)))</Math>
+                      </p>
+                      <p>
+                        <Math>0 = a0 + 0</Math>
+                      </p>
+                      <p>
+                        <Math>0 = a0</Math>
+                      </p>
+                      <p>
+                        <Math>a0 = 0</Math>
+                      </p>
                     </div>
-                    <div className="pl-4">
+                    <div className="pl-4 text-left">
                       <p>
                         Property of <Math>0</Math>
                       </p>
                       <p>
                         Distributivity
+                      </p>
+                      <p>
+                        Adding to both sides
+                      </p>
+                      <p>
+                        Definition of inverse
+                      </p>
+                      <p>
+                        Associativity
+                      </p>
+                      <p>
+                        Definition of inverse
+                      </p>
+                      <p>
+                        Definition of zero
+                      </p>
+                      <p className="relative">
+                        Reflexivity. <span className="absolute ml-2 mt-2 bg-gradient-to-br from-white to-violet-300 h-3 w-3 border-2 border-violet-500"></span>
                       </p>
                     </div>
                   </div>
