@@ -2,6 +2,7 @@ import { Fragment } from 'react'
 import Image from 'next/image'
 import clsx from 'clsx'
 import Highlight, { defaultProps } from 'prism-react-renderer'
+import { Math } from '@/components/Math'
 
 import { Button } from '@/components/Button'
 import { HeroBackground } from '@/components/HeroBackground'
@@ -90,7 +91,7 @@ export function Hero() {
               <div className="relative rounded-2xl bg-[#0A101F]/80 ring-1 ring-white/10 backdrop-blur">
                 <div className="absolute -top-px left-20 right-11 h-px bg-gradient-to-r from-sky-300/0 via-violet-300/70 to-sky-300/0" />
                 <div className="absolute -bottom-px left-11 right-20 h-px bg-gradient-to-r from-purple-400/0 via-purple-400 to-purple-400/0" />
-                <div className="pl-4 pt-4">
+                {/* <div className="pl-4 pt-4">
                   <TrafficLightsIcon className="h-2.5 w-auto stroke-slate-500/30" />
                   <div className="mt-4 flex space-x-2 text-xs">
                     {tabs.map((tab) => (
@@ -163,6 +164,32 @@ export function Hero() {
                         </pre>
                       )}
                     </Highlight>
+                  </div>
+                </div> */}
+                <div className="p-4 font-display text-transparent bg-gradient-to-r from-slate-50 via-white to-slate-50 bg-clip-text">
+                  <p>
+                    Claim: <Math>{'a\\cdot 0 = 0 \\ \\forall a\\in\\mathbb{Z}'}</Math>
+                  </p>
+                  <p>
+                    Proof:
+                  </p>
+                  <div className="flex flex-row divide-x">
+                    <div className="pr-4">
+                      <p>
+                        <Math>a0 = a(0+0)</Math>
+                      </p>
+                      <p>
+                        <Math>a0 = a0 + a0</Math>
+                      </p>
+                    </div>
+                    <div className="pl-4">
+                      <p>
+                        Property of <Math>0</Math>
+                      </p>
+                      <p>
+                        Distributivity
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
