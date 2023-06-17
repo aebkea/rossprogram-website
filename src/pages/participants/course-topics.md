@@ -63,7 +63,7 @@ Computing convergents. {% math %} \left|x - p/q \right| < 1/q^2 {% /math %}. Bes
 
 {% math %} \varphi(n) {% /math %}, {% math %} \tau(n) {% /math %}, {% math %} \sigma(n) {% /math %}, and {% math %} \mu(n) {% /math %}. Multiplicative functions. Sum of {% math %} f(d) {% /math %} as {% math %} d {% /math %} divides {% math %} n {% /math %}. Möbius Inversion. Convolutions of functions.
 
-### Gaussian integers: {% math %} \mathbb{Z}[i] {% /math %}
+### Gaussian integers: {% math %} \mathbb{Z}[i] {% /math %} {% shortHeading="Gaussian integers" %}
 
 Norms. Which rational primes have Gaussian factors? Division algorithm. Unique factorization. Fermat's two squares theorem. Counting residues {% math %} \mathrm{mod}\ {a+bi} {% /math %}.
 
