@@ -12,6 +12,18 @@ Our central goal has always been to instruct bright young students in the art of
 
 The value of a mathematics education lies not only in obtaining proficiency in computational tasks, but also in building a foundation for critical thinking. Students who have never asked why things work the way they do are not prepared to lead the way to future scientific innovation. It is precisely this independence of thought and questioning attitude that the Ross Program strives to nurture.
 
+{% quick-links %}
+
+{% quick-link title="Installation" icon="installation" href="/" description="Step-by-step guides to setting up your system and installing the library." /%}
+
+{% quick-link title="Architecture guide" icon="presets" href="/" description="Learn how the internals work and contribute." /%}
+
+{% quick-link title="Plugins" icon="plugins" href="/" description="Extend the library with third-party plugins or write your own." /%}
+
+{% quick-link title="API reference" icon="theming" href="/" description="Learn to easily customize and modify your app's visual design to fit your brand." /%}
+
+{% /quick-links %}
+
 ## Eligibility
 
 Ambitious pre-college students with interests in mathematics and science are invited to [apply](students/apply). First-year students range in age from 15 to 18 years old. (In rare cases, younger or older students are accepted.) Admission decisions are based on several critera, including: school transcripts, teacher recommendations, essays concerning the applicant's interests and goals, and the applicant's work on some challenging math problems.
