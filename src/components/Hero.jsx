@@ -91,7 +91,7 @@ export function Hero() {
               <div className="relative rounded-2xl bg-[#0A101F]/80 ring-1 ring-white/10 backdrop-blur">
                 <div className="absolute -top-px left-20 right-11 h-px bg-gradient-to-r from-sky-300/0 via-violet-300/70 to-sky-300/0" />
                 <div className="absolute -bottom-px left-11 right-20 h-px bg-gradient-to-r from-purple-400/0 via-purple-400 to-purple-400/0" />
-                {/* <div className="pl-4 pt-4">
+                <div className="pl-4 pt-4">
                   <TrafficLightsIcon className="h-2.5 w-auto stroke-slate-500/30" />
                   <div className="mt-4 flex space-x-2 text-xs">
                     {tabs.map((tab) => (
@@ -164,65 +164,6 @@ export function Hero() {
                         </pre>
                       )}
                     </Highlight>
-                  </div>
-                </div> */}
-                <div className="px-8 py-4 font-display text-transparent bg-gradient-to-r from-slate-50 via-white to-slate-50 bg-clip-text">
-                  <p>
-                    Claim: <Math>{'a0 = 0 \\ \\forall a\\in\\mathbb{Z}'}</Math>. Proof:
-                  </p>
-                  <div className="flex flex-row divide-x">
-                    <div className="pr-4 text-right">
-                      <p>
-                        <Math>a0 = a(0+0)</Math>
-                      </p>
-                      <p>
-                        <Math>a0 = a0 + a0</Math>
-                      </p>
-                      <p>
-                        <Math>a0 + (-(a0)) = (a0 + a0) + (-(a0))</Math>
-                      </p>
-                      <p>
-                        <Math>0 = (a0 + a0) + (-(a0))</Math>
-                      </p>
-                      <p>
-                        <Math>0 = a0 + (a0 + (-(a0)))</Math>
-                      </p>
-                      <p>
-                        <Math>0 = a0 + 0</Math>
-                      </p>
-                      <p>
-                        <Math>0 = a0</Math>
-                      </p>
-                      <p>
-                        <Math>a0 = 0</Math>
-                      </p>
-                    </div>
-                    <div className="pl-4 text-left">
-                      <p>
-                        Property of <Math>0</Math>
-                      </p>
-                      <p>
-                        Distributivity
-                      </p>
-                      <p>
-                        Adding to both sides
-                      </p>
-                      <p>
-                        Definition of inverse
-                      </p>
-                      <p>
-                        Associativity
-                      </p>
-                      <p>
-                        Definition of inverse
-                      </p>
-                      <p>
-                        Definition of zero
-                      </p>
-                      <p className="relative">
-                        Reflexivity. <span className="absolute ml-2 mt-2 bg-gradient-to-br from-white to-violet-300 h-3 w-3 border-2 border-violet-500"></span>
-                      </p>
-                    </div>
                   </div>
                 </div>
               </div>
