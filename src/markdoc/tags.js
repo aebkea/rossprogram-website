@@ -1,6 +1,7 @@
 import { Callout } from '@/components/Callout'
 import { Math } from '@/components/Math'
 import { QuickLink, QuickLinks } from '@/components/QuickLinks'
+import { Sponsor, Sponsors } from '@/components/Sponsors'
 
 const tags = {
   callout: {
@@ -60,6 +61,27 @@ const tags = {
         matches: ['display', 'inline'],
         errorLevel: 'critical',
       },
+    },
+  },
+  'sponsors': {
+    render: Sponsors,
+    attributes: {
+      columns: {
+        type: String,
+        default: '2',
+        matches: ['1', '2', '3', '4'],
+        errorLevel: 'critical',
+      }
+    }
+  },
+  'sponsor': {
+    selfClosing: true,
+    render: Sponsor,
+    attributes: {
+      title: { type: String },
+      description: { type: String },
+      logo: { type: String },
+      href: { type: String },
     },
   },
 }

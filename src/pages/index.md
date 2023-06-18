@@ -46,6 +46,12 @@ Each Ross student is asked to pay a program fee of $6000. Those funds are used t
 
 The Ross Program is supported in several ways. Partners in this mathematical enterprise include:
 
+{% sponsors %}
+
+{% sponsor title="test" logo="ams" href="/" description="test" /%}
+
+{% /sponsors %}
+
 ## Related Programs
 
 Some other excellent summer mathematics programs are listed on the AMS [mathcamps](https://ams.org/opportunities) webpage. The two programs most closely related to Ross are [PROMYS](https://promys.org) at Boston University and the [Honors Summer Math Camp](https://txstate.edu/mathworks/camps/Summer-Math-Camps-Information/hsmc.html) at Texas State University.
