@@ -7,10 +7,10 @@ import { Icon } from '@/components/Icon'
 export function QuickLinks({ columns, children }) {
   return (
     <div className={clsx("not-prose my-12 grid grid-cols-1 gap-6",
-      columns == "1" ? "sm:grid-cols-1" :
-      columns == "2" ? "sm:grid-cols-2" :
-      columns == "3" ? "sm:grid-cols-3" :
-      columns == "4" ? "sm:grid-cols-4" : ""
+      columns === "1" ? "sm:grid-cols-1" :
+      columns === "2" ? "sm:grid-cols-2" :
+      columns === "3" ? "sm:grid-cols-3" :
+      columns === "4" ? "sm:grid-cols-4" : ""
       )
     }>
       {children}

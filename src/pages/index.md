@@ -1,7 +1,7 @@
 ---
 title: Introduction
-pageTitle: CacheAdvance - Never miss the cache again.
-description: Cache every single thing your app could ever do ahead of time, so your code never even has to run at all.
+pageTitle: Ross Mathematics Program - Introduction
+description: Think deeply about simple things.
 ---
 
 The Ross Program is an intensive summer experience designed to encourage motivated pre-college students to explore mathematics. During those weeks, students are immersed in a world of mathematical discovery.

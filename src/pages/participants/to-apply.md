@@ -1,5 +1,5 @@
 ---
-title: To Apply
+title: Participant Application
 description: Quidem magni aut exercitationem maxime rerum eos.
 ---
 
