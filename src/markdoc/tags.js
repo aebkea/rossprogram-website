@@ -32,6 +32,14 @@ const tags = {
   },
   'quick-links': {
     render: QuickLinks,
+    attributes: {
+      columns: {
+        type: String,
+        default: '2',
+        matches: ['1', '2', '3', '4'],
+        errorLevel: 'critical',
+      }
+    }
   },
   'quick-link': {
     selfClosing: true,
