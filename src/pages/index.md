@@ -46,9 +46,11 @@ Each Ross student is asked to pay a program fee of $6000. Those funds are used t
 
 The Ross Program is supported in several ways. Partners in this mathematical enterprise include:
 
-{% sponsors %}
+{% sponsors columns="3" %}
 
-{% sponsor title="test" logo="ams" href="/" description="test" /%}
+{% sponsor logo="ams" href="https://ams.org" /%}
+{% sponsor logo="janeStreet" href="/" /%}
+{% sponsor logo="cakeShopCapital" href="/" /%}
 
 {% /sponsors %}
 
