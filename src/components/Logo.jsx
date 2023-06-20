@@ -23,7 +23,6 @@ export function Logo(props) {
   return (
     <svg aria-hidden="true" viewBox="0 0 128.27 40" fill="none" {...props}>
       <LogomarkPaths />
-      <path d="M41.791 0h1.996v39.356h-1.996z"></path>
       <g
         ariaLabel="Ross Mathematics Program"
         style={{}}
