@@ -41,6 +41,7 @@ export const navigation = [
     title: 'Alumni',
     links: [
       { title: 'About', href: '/alumni' },
+      { title: 'Contribute', href: '/alumni/contribute'},
     ],
   },
 ]
