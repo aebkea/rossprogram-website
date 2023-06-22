@@ -31,9 +31,11 @@ to make sure that we know about your donation. We will reply with a tax receipt.
 
 Please make out the check to the _Ross Mathematics Foundation_ with “Ross Endowment Fund” in the memo, and mail it to:
 
-> Ross Mathematics Foundation  
-> 1644 Andover Rd.  
-> Columbus, OH 43212
+{% blockquote quoteless="true" %}
+Ross Mathematics Foundation  
+1644 Andover Rd.  
+Columbus, OH 43212
+{% /blockquote %}
 
 ### Online
 

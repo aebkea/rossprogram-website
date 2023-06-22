@@ -30,9 +30,9 @@ const nodes = {
       ...defaultNodes.heading.attributes,
       'shortHeading': {
         type: String,
-      }
-    }
-  }
+      },
+    },
+  },
 }
 
 export default nodes

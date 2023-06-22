@@ -3,6 +3,7 @@ import { Math } from '@/components/Math'
 import { QuickLink, QuickLinks } from '@/components/QuickLinks'
 import { Sponsor, Sponsors } from '@/components/Sponsors'
 import { PaymentButton, PaymentButtons } from '@/components/PaymentButtons'
+import { Blockquote } from '@/components/Blockquote'
 
 const tags = {
   callout: {
@@ -110,6 +111,12 @@ const tags = {
       description: { type: String },
       logo: { type: String },
       href: { type: String },
+    },
+  },
+  'blockquote': {
+    render: Blockquote,
+    attributes: {
+      quoteless: { type: String },
     },
   },
 }

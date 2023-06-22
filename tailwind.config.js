@@ -28,6 +28,14 @@ module.exports = {
       maxWidth: {
         '8xl': '88rem',
       },
+      typography: {
+        quoteless: {
+          css: {
+            'blockquote p:first-of-type::before': { content: 'none' },
+            'blockquote p:first-of-type::after': { content: 'none' },
+          }
+        }
+      }
     },
   },
   plugins: [require('@tailwindcss/typography')],
