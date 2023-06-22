@@ -37,7 +37,7 @@ Columbus, OH 43212
 
 ### Online
 
-Credit card contributions can be made online.
+Credit card contributions can be made online through the following buttons.
 
 {% payment-buttons columns="3" %}
 
