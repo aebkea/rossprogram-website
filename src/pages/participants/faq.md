@@ -35,18 +35,22 @@ All participants will live in a dormitory on campus. Typically, students live wi
 
 For a student at Ross/OH, the mailing address is:
 
+{% blockquote quoteless="true" %}
 \[Student Name\] – Ross  
 Events & Conferences  
 1 S Grove St.  
 Westerville, OH 43081
+{% /blockquote %}
 
 For a student at Ross/IN, the mailing address is:
 
+{% blockquote quoteless="true" %}
 \[Student Name\]  
 Ross Mathematics Program  
 Rose-Hulman Institute of Technology  
 5500 Wabash Ave.  
 Terre Haute, IN 47803
+{% /blockquote %}
 
 ### How are the dorm rooms at Ross/USA furnished?
 
