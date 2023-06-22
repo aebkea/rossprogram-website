@@ -24,7 +24,7 @@ export function Logo(props) {
     <svg aria-hidden="true" viewBox="0 0 128.27 40" fill="none" {...props}>
       <LogomarkPaths />
       <g
-        ariaLabel="Ross Mathematics Program"
+        aria-label="Ross Mathematics Program"
         style={{}}
         fontFamily="Roboto Slab"
         fontSize="13.119"
