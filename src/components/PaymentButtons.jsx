@@ -1,11 +1,5 @@
 import clsx from 'clsx'
 
-import { loadStripe } from '@stripe/stripe-js'
-
-const stripePromise = loadStripe(
-    `${process.env.PUBLIC_STRIPE_PUBLISHABLE_KEY}`
-)
-
 export function PaymentButtons({ columns, children }) {
     return (
         <div className={clsx("not-prose my-12 grid grid-cols-1 gap-6", "sm:grid-cols-".concat(columns))}>
