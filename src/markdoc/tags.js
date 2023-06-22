@@ -62,7 +62,6 @@ const tags = {
         matches: ['1', '2', '3', '4'],
         errorLevel: 'critical',
       },
-      publishable_key: { type: String },
     },
   },
   'payment-button': {
@@ -77,6 +76,8 @@ const tags = {
         default: 'payment',
       },
       priceId: { type: String },
+      colStart: { type: String },
+      colEnd: { type: String },
     },
   },
   'math': {

@@ -41,11 +41,17 @@ Credit card contributions can be made online.
 
 {% payment-buttons columns="3" %}
 
-{% payment-button title="$50" description="Become as gods!" priceId="price_1NLYywEDjMQ1Iomg8p2f6QMh" /%}
+{% payment-button title="$50" description="" priceId="price_1NLYywEDjMQ1Iomg8p2f6QMh" /%}
 
-{% payment-button title="$100" description="Become as gods!" priceId="price_1NLax5EDjMQ1IomgZxCL0kF5" /%}
+{% payment-button title="$100" description="" priceId="price_1NLax5EDjMQ1IomgZxCL0kF5" /%}
 
-{% payment-button title="$250" description="Become as gods!" priceId="price_1NLaxSEDjMQ1IomguPi9eGzN" /%}
+{% payment-button title="$250" description="" priceId="price_1NLaxSEDjMQ1IomguPi9eGzN" /%}
+
+{% payment-button title="$1,000" description="" priceId="" /%}
+
+{% payment-button title="$6,000" description="This funds a participant's whole tuition!" priceId="" colStart="2" colEnd="4" /%}
+
+{% payment-button title="Other amount" description="" priceId="" colStart="1" colEnd="4" /%}
 
 {% /payment-buttons %}
 
