@@ -17,14 +17,15 @@ export function PaymentButtons({ columns, children }) {
 export function PaymentButton({ title, description, priceId, colStart, colEnd }) {
     return (
         <div className={clsx("group relative grid content-center rounded-xl border border-slate-200 dark:border-slate-800",
-          colEnd === "1" ? "sm:col-start-1" :
-            colEnd === "2" ? "sm:col-start-2" :
-              colEnd === "3" ? "sm:col-start-3" :
-                colEnd === "4" ? "sm:col-start-4" : "",
-          colStart === "1" ? "sm:col-end-1" :
-            colStart === "2" ? "sm:col-end-2" :
-              colStart === "3" ? "sm:col-end-3" :
-                colStart === "4" ? "sm:col-end-4" : "")}>
+          colEnd === "1" ? "sm:col-end-1" :
+            colEnd === "2" ? "sm:col-end-2" :
+              colEnd === "3" ? "sm:col-end-3" :
+                colEnd === "4" ? "sm:col-end-4" :
+                  colEnd === "5" ? "sm:col-end-5" : "",
+          colStart === "1" ? "sm:col-start-1" :
+            colStart === "2" ? "sm:col-start-2" :
+              colStart === "3" ? "sm:col-start-3" :
+                colStart === "4" ? "sm:col-start-4" : "")}>
                               
             <div className="absolute -inset-px rounded-xl border-2 border-transparent opacity-0 [background:linear-gradient(var(--quick-links-hover-bg,theme(colors.violet.50)),var(--quick-links-hover-bg,theme(colors.violet.50)))_padding-box,linear-gradient(to_top,theme(colors.indigo.400),theme(colors.cyan.400),theme(colors.violet.500))_border-box] group-hover:opacity-100 dark:[--quick-links-hover-bg:theme(colors.slate.800)]" />
             <div className="relative overflow-hidden rounded-xl p-6">
