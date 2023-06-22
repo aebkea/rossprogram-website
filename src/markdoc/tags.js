@@ -2,6 +2,7 @@ import { Callout } from '@/components/Callout'
 import { Math } from '@/components/Math'
 import { QuickLink, QuickLinks } from '@/components/QuickLinks'
 import { Sponsor, Sponsors } from '@/components/Sponsors'
+import { PaymentButton, PaymentButtons } from '@/components/PaymentButtons'
 
 const tags = {
   callout: {
@@ -39,8 +40,8 @@ const tags = {
         default: '2',
         matches: ['1', '2', '3', '4'],
         errorLevel: 'critical',
-      }
-    }
+      },
+    },
   },
   'quick-link': {
     selfClosing: true,
@@ -50,6 +51,32 @@ const tags = {
       description: { type: String },
       icon: { type: String },
       href: { type: String },
+    },
+  },
+  'payment-buttons': {
+    render: PaymentButtons,
+    attributes: {
+      columns: {
+        type: String,
+        default: '2',
+        matches: ['1', '2', '3', '4'],
+        errorLevel: 'critical',
+      },
+      publishable_key: { type: String },
+    },
+  },
+  'payment-button': {
+    selfClosing: true,
+    render: PaymentButton,
+    attributes: {
+      title: { type: String },
+      description: { type: String },
+      href: { type: String },
+      checkoutMode: {
+        type: String,
+        default: 'payment',
+      },
+      priceId: { type: String },
     },
   },
   'math': {

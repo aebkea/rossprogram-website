@@ -164,6 +164,17 @@ export function Layout({ children, title, tableOfContents }) {
     return section.children.findIndex(isActive) > -1
   }
 
+  useEffect(() => {
+    // Check to see if this is a redirect back from checkout
+    const query = new URLSearchParams(window.location.search);
+    if (query.get('success')) {
+      console.log('Donation placed!');
+    }
+    if (query.get('canceled')) {
+      console.log('Donation canceled.')
+    }
+  }, []);
+
   return (
     <>
       <Header navigation={navigation} />
