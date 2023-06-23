@@ -4,7 +4,7 @@ pageTitle: Ross Mathematics Program - Introduction
 description: Think deeply about simple things.
 ---
 
-The Ross Program is an intensive summer experience designed to encourage motivated pre-college students to explore mathematics. During those weeks, students are immersed in a world of mathematical discovery.
+The Ross Program is an intensive summer experience designed to encourage motivated pre-college students to explore mathematics. During those weeks, students are immersed in a world of mathematical discovery. {% .lead %}
 
 [Dr. Arnold Ross](alumni/biography) founded this multi-level program at Notre Dame University in 1957. Its growth was then spurred by the launch of the Sputnik satellite and the subsequent surge of interest in science education. Arnold Ross's Program has run every summer since then, associated mostly with Ohio State University from 1964 through 2018. In 2019, the Program moved to [Ohio Dominican University](https://ohiodominican.edu). In 2020 and 2021 the Ross Program was entirely online, but in-person sessions resumed in 2022 at Ohio Dominican University and [Rose-Hulman Institute of Technology](https://rose-hulman.edu).
 
