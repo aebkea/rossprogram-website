@@ -31,7 +31,7 @@ export function PaymentButton({ title, description, priceId, colStart, colEnd })
             <div className="relative overflow-hidden rounded-xl p-6">
                 <h2 className={clsx("text-3xl text-slate-900 dark:text-white")}>
                     <form action="/api/checkout_sessions" method="POST">
-                        <input type="hidden" id="priceId" name="priceId" readonly value={priceId} />
+                        <input type="hidden" id="priceId" name="priceId" readOnly value={priceId} />
                         <button type="submit">
                             <span className="absolute -inset-px rounded-xl" />
                             {title}
