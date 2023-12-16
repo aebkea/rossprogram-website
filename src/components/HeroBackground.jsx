@@ -14,7 +14,7 @@ export function HeroBackground(props) {
     >
       <style>
         {
-          ".st0,.st1{fill:#8b5cf6;stroke:#334155;stroke-width:5;stroke-miterlimit:10}.st0{stroke-opacity:0.8}.st1{stroke:#8b5cf6;stroke-width:8;fill-opacity:0.8;stroke-opacity:.4}"
+          ".st0,.st1{fill:#8b5cf6;stroke:#334155;stroke-width:5;stroke-miterlimit:10}.st0{stroke-opacity:0.5}.st1{stroke:#8b5cf6;stroke-width:8;fill-opacity:0.8;stroke-opacity:.4}"
         }
       </style>
       <g id="Layer_2">
