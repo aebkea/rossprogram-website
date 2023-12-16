@@ -93,7 +93,7 @@ export function Hero() {
                 <div className="absolute -top-px left-20 right-11 h-px bg-gradient-to-r from-sky-300/0 via-violet-300/70 to-sky-300/0" />
                 <div className="absolute -bottom-px left-11 right-20 h-px bg-gradient-to-r from-purple-400/0 via-purple-400 to-purple-400/0" />
                 <div className="overflow-hidden rounded-2xl">
-                  <Image className="w-full h-full scale-[2] translate-y-5" src={hero} />
+                  <Image className="w-full h-full" width="1500" height="580" src={hero} />
                 </div>
               </div>
             </div>
