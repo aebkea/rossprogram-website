@@ -179,7 +179,7 @@ export function Layout({ children, title, tableOfContents }) {
     <>
       <Header navigation={navigation} />
 
-      {isHomePage && <Hero className="z-40" />}
+      {isHomePage && <Hero />}
 
       <div className="relative mx-auto flex max-w-8xl justify-center sm:px-2 lg:px-8 xl:px-12">
         <div className="hidden lg:relative lg:block lg:flex-none">
