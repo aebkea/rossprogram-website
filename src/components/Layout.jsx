@@ -298,7 +298,7 @@ export function Layout({ children, title, tableOfContents }) {
           {tableOfContents.length > 0 && (
             <div className="hidden xl:block xl:w-[90%] mx-auto xl:border-t-2 dark:border-slate-800 xl:mt-8 xl:mb-10 xl:border-slate-200" />
           )}
-          <div className="hidden xl:w-full xl:flex xl:flex-col xl:gap-4">
+          <div className="hidden xl:w-[95%] xl:mx-auto xl:flex xl:flex-col xl:gap-4">
             <ImageSet />
           </div>
         </div>

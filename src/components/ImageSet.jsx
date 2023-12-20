@@ -24,7 +24,7 @@ export default function ImageSet() {
   return (
     <>
       {randomImages.map((image, index) => (
-        <Image key={index} src={image} width="200" height="200" className="mx-auto w-[95%] rounded-xl" />
+        <Image key={index} src={image} width="200" height="200" className="w-full rounded-xl" />
       ))}
     </>
   )
