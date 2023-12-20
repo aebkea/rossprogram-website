@@ -10,6 +10,7 @@ import { Navigation } from '@/components/Navigation'
 import { Prose } from '@/components/Prose'
 import { Search } from '@/components/Search'
 import { ThemeSelector } from '@/components/ThemeSelector'
+import ImageSet from './ImageSet'
 
 export const navigation = [
   {
@@ -294,6 +295,12 @@ export function Layout({ children, title, tableOfContents }) {
               </>
             )}
           </nav>
+          {tableOfContents.length > 0 && (
+            <div className="hidden xl:block xl:w-[90%] mx-auto xl:border-t-2 dark:border-slate-800 xl:mt-8 xl:mb-10 xl:border-slate-200" />
+          )}
+          <div className="hidden xl:w-full xl:flex xl:flex-col xl:gap-4">
+            <ImageSet />
+          </div>
         </div>
       </div>
     </>
