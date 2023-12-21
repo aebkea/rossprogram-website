@@ -17,7 +17,7 @@ export default function ImageSet() {
   const [randomImages, setRandomImages] = useState([]);
 
   useEffect(() => {
-    const randomizeImages = [...images].sort(() => 0.5 - Math.random());
+    const randomizeImages = shuffle(images)
     setRandomImages(randomizeImages.slice(0, 3));
   }, []);
 
@@ -30,20 +30,20 @@ export default function ImageSet() {
   )
 }
 
-// function shuffle(array) {
-//   let currentIndex = array.length, randomIndex;
+function shuffle(array) {
+  let currentIndex = array.length, randomIndex;
 
-//   // While there remain elements to shuffle.
-//   while (currentIndex > 0) {
+  // While there remain elements to shuffle.
+  while (currentIndex > 0) {
 
-//     // Pick a remaining element.
-//     randomIndex = Math.floor(Math.random() * currentIndex);
-//     currentIndex--;
+    // Pick a remaining element.
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
 
-//     // And swap it with the current element.
-//     [array[currentIndex], array[randomIndex]] = [
-//       array[randomIndex], array[currentIndex]];
-//   }
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex], array[currentIndex]];
+  }
 
-//   return array;
-// }
+  return array;
+}
