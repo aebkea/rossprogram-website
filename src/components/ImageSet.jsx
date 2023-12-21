@@ -11,15 +11,23 @@ import img7 from "@/images/side/9E8A2861.jpg"
 import { useEffect } from 'react';
 
 const images = [img1, img2, img3, img4, img5, img6, img7]
-// shuffle(images)
 
-export default function ImageSet() {
+export default function ImageSet({count, index}) {
   const [randomImages, setRandomImages] = useState([]);
+  
+  useEffect(() => {
+    shuffle(images)
+  }, [])
 
   useEffect(() => {
-    const randomizeImages = shuffle(images)
-    setRandomImages(randomizeImages.slice(0, 3));
-  }, []);
+    const indexArray = [(count * index) % (images.length), (count * (index + 1)) % (images.length)]
+    if (indexArray[0] < indexArray[1]) {
+      setRandomImages(images.slice(...indexArray));
+    } else {
+      setRandomImages([...images.slice(indexArray[0], images.length), ...images.slice(0, indexArray[1])])
+    }
+    console.log(indexArray)
+  }, [count, index]);
 
   return (
     <>
