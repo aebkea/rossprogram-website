@@ -20,8 +20,10 @@ export default function ImageCarousel() {
     }, []);
 
     return (
-        <div className="hidden xl:w-[95%] xl:mx-auto xl:flex xl:flex-col xl:gap-4 xl:animate-carouselFade">
-            <ImageSet count={3} index={index} />
+        <div className="hidden xl:block">
+            <div key={index} className="w-[95%] mx-auto flex flex-col gap-4 animate-carouselFade">
+                <ImageSet count={3} index={index} />
+            </div>
         </div>
     )
 }

@@ -45,7 +45,7 @@ module.exports = {
         },
       },
       animation: {
-        carouselFade: 'fadeInOut 10s ease-in-out infinite'
+        carouselFade: 'fadeInOut 10s ease-in-out'
       }
     },
   },
