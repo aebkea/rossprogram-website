@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 import { Transition } from '@headlessui/react'
 
 
-export default function ImageCarousel() {
+export default function ImageCarousel({className}) {
     const [index, setIndex] = useState(0);
 
     useEffect(() => {
@@ -20,7 +20,7 @@ export default function ImageCarousel() {
     }, []);
 
     return (
-        <div className="hidden xl:block">
+        <div className={clsx(...className)}>
             <div key={index} className="w-[95%] mx-auto flex flex-col gap-4 animate-carouselFade">
                 <ImageSet count={3} index={index} />
             </div>

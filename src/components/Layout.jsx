@@ -298,7 +298,7 @@ export function Layout({ children, title, tableOfContents }) {
           {tableOfContents.length > 0 && (
             <div className="hidden xl:block xl:w-[90%] mx-auto xl:border-t-2 dark:border-slate-800 xl:mt-8 xl:mb-10 xl:border-slate-200" />
           )}
-          <ImageCarousel />
+          <ImageCarousel className="hidden xl:block" />
         </div>
       </div>
     </>
