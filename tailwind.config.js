@@ -37,16 +37,15 @@ module.exports = {
         }
       },
       keyframes: {
-        fadeInOut: {
+        fadeIn: {
           '0%': { opacity: 0 },
-          '10%': { opacity: 1 },
-          '90%': { opacity: 1 },
+          '100%': { opacity: 1 },
+        },
+        fadeOut: {
+          '0%': { opacity: 1 },
           '100%': { opacity: 0 },
         },
       },
-      animation: {
-        carouselFade: 'fadeInOut 10s ease-in-out'
-      }
     },
   },
   plugins: [require('@tailwindcss/typography')],
