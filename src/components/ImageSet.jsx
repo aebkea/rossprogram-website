@@ -23,7 +23,6 @@ export default function ImageSet({count, index}) {
     } else {
       setRandomImages([...images.slice(indexArray[0], images.length), ...images.slice(0, indexArray[1])])
     }
-    console.log(indexArray)
   }, [count, index]);
 
   return (
