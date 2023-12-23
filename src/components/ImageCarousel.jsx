@@ -15,117 +15,117 @@ const images = [img1, img2, img3, img4, img5, img6, img7]
 shuffle(images)
 
 const delay = ms => new Promise(
-    resolve => setTimeout(resolve, ms)
+  resolve => setTimeout(resolve, ms)
 );
 
 function ImageSet({ count, index, openModal }) {
-    const [randomImages, setRandomImages] = useState([]);
+  const [randomImages, setRandomImages] = useState([]);
 
-    useEffect(() => {
-        const indexArray = [(count * index) % (images.length), (count * (index + 1)) % (images.length)]
-        if (indexArray[0] < indexArray[1]) {
-            setRandomImages(images.slice(...indexArray));
-        } else {
-            setRandomImages([...images.slice(indexArray[0], images.length), ...images.slice(0, indexArray[1])])
-        }
-    }, [count, index]);
+  useEffect(() => {
+    const indexArray = [(count * index) % (images.length), (count * (index + 1)) % (images.length)]
+    if (indexArray[0] < indexArray[1]) {
+      setRandomImages(images.slice(...indexArray));
+    } else {
+      setRandomImages([...images.slice(indexArray[0], images.length), ...images.slice(0, indexArray[1])])
+    }
+  }, [count, index]);
 
-    return (
-        <>
-            {randomImages.map((image, index) => (
-                <button key={index} onClick={() => openModal(image)} className="relative w-56 left-3 aspect-[3/2] rounded-lg ring-1 ring-slate-200 dark:ring-slate-800 shadow-md overflow-hidden transition ease-in-out delay-50 hover:scale-105 duration-300">
-                    <Image src={image} fill={true} sizes="224px" className="object-cover" />
-                </button>
-            ))}
-        </>
-    )
+  return (
+    <>
+      {randomImages.map((image, index) => (
+        <button key={index} onClick={() => openModal(image)} className="relative w-56 left-3 aspect-[3/2] rounded-lg ring-1 ring-slate-200 dark:ring-slate-800 shadow-md overflow-hidden transition ease-in-out delay-50 hover:scale-105 duration-300">
+          <Image src={image} fill={true} sizes="224px" className="object-cover" />
+        </button>
+      ))}
+    </>
+  )
 }
 
 function shuffle(array) {
-    let currentIndex = array.length, randomIndex;
+  let currentIndex = array.length, randomIndex;
 
-    // While there remain elements to shuffle.
-    while (currentIndex > 0) {
+  // While there remain elements to shuffle.
+  while (currentIndex > 0) {
 
-        // Pick a remaining element.
-        randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex--;
+    // Pick a remaining element.
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
 
-        // And swap it with the current element.
-        [array[currentIndex], array[randomIndex]] = [
-            array[randomIndex], array[currentIndex]];
-    }
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex], array[currentIndex]];
+  }
 
-    return array;
+  return array;
 }
 
-export default function ImageCarousel({className, openModal}) {
-    const [index, setIndex] = useState(0);
-    const [fade, setFade] = useState('in')
-    const [count, setCount] = useState(0)
+export default function ImageCarousel({ className, openModal }) {
+  const [index, setIndex] = useState(0);
+  const [fade, setFade] = useState('in')
+  const [count, setCount] = useState(0)
 
-    const windowSize = useWindowSize()
+  const windowSize = useWindowSize()
 
-    useEffect(() => {
-        const interval = setInterval(async () => {
-            setFade('out')
-            await delay(1000)
-            setIndex(prevIndex => prevIndex + 1);
-            await delay(50)
-            setFade('in')
-        }, 10000);
+  useEffect(() => {
+    const interval = setInterval(async () => {
+      setFade('out')
+      await delay(1000)
+      setIndex(prevIndex => prevIndex + 1);
+      await delay(50)
+      setFade('in')
+    }, 10000);
 
-        return () => {
-            clearInterval(interval)
-        }
-    }, []);
+    return () => {
+      clearInterval(interval)
+    }
+  }, []);
 
-    useEffect(() => {
-        const calculatedCount = Math.floor((windowSize.height - 110) / 182)
-        // Change max count if number of images changes
-        if (calculatedCount > images.length) {
-            setCount(images.length)
-        } else if (calculatedCount < 1) {
-            setCount(0)
-        } else {
-            setCount(calculatedCount)
-        }
-    }, [windowSize]);
+  useEffect(() => {
+    const calculatedCount = Math.floor((windowSize.height - 110) / 182)
+    // Change max count if number of images changes
+    if (calculatedCount > images.length) {
+      setCount(images.length)
+    } else if (calculatedCount < 1) {
+      setCount(0)
+    } else {
+      setCount(calculatedCount)
+    }
+  }, [windowSize]);
 
-    return (
-        <div className={clsx("w-full h-[calc(100vh-12.5rem)] mx-auto flex flex-col justify-between", fade === 'out' ? "animate-[fadeOut_900ms_ease-in-out_1_forwards]" : "animate-[fadeIn_900ms_ease-in-out_1]", ...className)}>
-            <ImageSet count={count} index={index} openModal={openModal} />
-        </div>
-    )
+  return (
+    <div className={clsx("w-full h-[calc(100vh-12.5rem)] mx-auto flex flex-col justify-between", fade === 'out' ? "animate-[fadeOut_900ms_ease-in-out_1_forwards]" : "animate-[fadeIn_900ms_ease-in-out_1]", ...className)}>
+      <ImageSet count={count} index={index} openModal={openModal} />
+    </div>
+  )
 }
 
 function useWindowSize() {
-    // Initialize state with undefined width/height so server and client renders match
-    // Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
-    const [windowSize, setWindowSize] = useState({
-        width: undefined,
-        height: undefined,
-    });
+  // Initialize state with undefined width/height so server and client renders match
+  // Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
+  const [windowSize, setWindowSize] = useState({
+    width: undefined,
+    height: undefined,
+  });
 
-    useEffect(() => {
-        // only execute all the code below in client side
-        // Handler to call on window resize
-        function handleResize() {
-            // Set window width/height to state
-            setWindowSize({
-                width: window.innerWidth,
-                height: window.innerHeight,
-            });
-        }
+  useEffect(() => {
+    // only execute all the code below in client side
+    // Handler to call on window resize
+    function handleResize() {
+      // Set window width/height to state
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    }
 
-        // Add event listener
-        window.addEventListener("resize", handleResize);
+    // Add event listener
+    window.addEventListener("resize", handleResize);
 
-        // Call handler right away so state gets updated with initial window size
-        handleResize();
+    // Call handler right away so state gets updated with initial window size
+    handleResize();
 
-        // Remove event listener on cleanup
-        return () => window.removeEventListener("resize", handleResize);
-    }, []); // Empty array ensures that effect is only run on mount
-    return windowSize;
+    // Remove event listener on cleanup
+    return () => window.removeEventListener("resize", handleResize);
+  }, []); // Empty array ensures that effect is only run on mount
+  return windowSize;
 }
