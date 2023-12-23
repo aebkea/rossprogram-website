@@ -11,6 +11,7 @@ import { Prose } from '@/components/Prose'
 import { Search } from '@/components/Search'
 import { ThemeSelector } from '@/components/ThemeSelector'
 import ImageCarousel from './ImageCarousel'
+import ImageModal from './ImageModal'
 
 export const navigation = [
   {
@@ -176,8 +177,17 @@ export function Layout({ children, title, tableOfContents }) {
     }
   }, []);
 
+  const [imageOpen, setImageOpen] = useState(false)
+  const [selectedImage, setSelectedImage] = useState(null)
+
+  function openImageModal(image) {
+    setSelectedImage(image)
+    setImageOpen(true)
+  }
+
   return (
     <>
+      <ImageModal open={imageOpen} setOpen={setImageOpen} image={selectedImage} />
       <Header navigation={navigation} />
 
       {isHomePage && <Hero />}
@@ -299,7 +309,7 @@ export function Layout({ children, title, tableOfContents }) {
             <div className="hidden xl:block xl:w-[90%] mx-auto xl:border-t-2 dark:border-slate-800 xl:mt-8 xl:mb-10 xl:border-slate-200" />
           )} */}
           {tableOfContents.length === 0 && (
-            <ImageCarousel className="hidden xl:block" />
+            <ImageCarousel className="hidden xl:block" openModal={openImageModal} />
           )}
         </div>
       </div>

@@ -9,7 +9,7 @@ const delay = ms => new Promise(
     resolve => setTimeout(resolve, ms)
 );
 
-export default function ImageCarousel({className}) {
+export default function ImageCarousel({className, openModal}) {
     const [index, setIndex] = useState(0);
     const [fade, setFade] = useState('in')
     const [count, setCount] = useState(0)
@@ -38,7 +38,7 @@ export default function ImageCarousel({className}) {
 
     return (
         <div className={clsx("w-full h-[calc(100vh-12.5rem)] ml-4 mx-auto flex flex-col justify-between", fade === 'out' ? "animate-[fadeOut_900ms_ease-in-out_1_forwards]" : "animate-[fadeIn_900ms_ease-in-out_1]", ...className)}>
-            <ImageSet count={count} index={index} />
+            <ImageSet count={count} index={index} openModal={openModal} />
         </div>
     )
 }
