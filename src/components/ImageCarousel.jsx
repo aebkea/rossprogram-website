@@ -37,7 +37,7 @@ export default function ImageCarousel({className, openModal}) {
     }, [windowSize]);
 
     return (
-        <div className={clsx("w-full h-[calc(100vh-12.5rem)] ml-4 mx-auto flex flex-col justify-between", fade === 'out' ? "animate-[fadeOut_900ms_ease-in-out_1_forwards]" : "animate-[fadeIn_900ms_ease-in-out_1]", ...className)}>
+        <div className={clsx("w-full h-[calc(100vh-12.5rem)] mx-auto flex flex-col justify-between", fade === 'out' ? "animate-[fadeOut_900ms_ease-in-out_1_forwards]" : "animate-[fadeIn_900ms_ease-in-out_1]", ...className)}>
             <ImageSet count={count} index={index} openModal={openModal} />
         </div>
     )
