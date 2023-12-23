@@ -1,6 +1,7 @@
 ---
 title: Frequently Asked Questions
 description: Quidem magni aut exercitationem maxime rerum eos.
+useTableOfContents: true
 ---
 
 ## General Questions
