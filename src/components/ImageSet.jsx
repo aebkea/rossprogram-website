@@ -28,7 +28,9 @@ export default function ImageSet({count, index}) {
   return (
     <>
       {randomImages.map((image, index) => (
-        <Image key={index} src={image} width="200" height="200" className="w-56 mx-auto rounded-xl ring-1 ring-slate-200 dark:ring-slate-800" />
+        <div key={index} className="relative w-56 aspect-[3/2] rounded-lg ring-1 ring-slate-200 dark:ring-slate-800 shadow-xl overflow-hidden">
+          <Image src={image} fill={true} sizes="224px" className="object-cover" />
+        </div>
       ))}
     </>
   )
