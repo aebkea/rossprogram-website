@@ -32,7 +32,7 @@ export default function ImageModal({ open, setOpen, image }) {
               leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
             >
               <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-2xl sm:p-6 dark:bg-slate-900">
-                <Image src={image} className="rounded-sm" />
+                <Image src={image} placeholder="blur" className="rounded-sm" />
                 <div className="mt-5 sm:mt-6">
                   <button
                     type="button"
