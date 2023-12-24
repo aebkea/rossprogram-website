@@ -9,6 +9,7 @@ import { HeroBackground } from '@/components/HeroBackground'
 import blurCyanImage from '@/images/blur-cyan.png'
 import blurIndigoImage from '@/images/blur-indigo.png'
 import hero from '@/images/hero.png'
+import heroFull from '@/images/hero_full.jpg'
 
 const codeLanguage = 'javascript'
 const code = `export default {
@@ -34,7 +35,7 @@ function TrafficLightsIcon(props) {
   )
 }
 
-export function Hero() {
+export function Hero({ openModal }) {
   return (
     <div className="overflow-hidden bg-slate-900 dark:-mb-32 dark:mt-[-4.5rem] dark:pb-32 dark:pt-[4.5rem] dark:lg:mt-[-4.75rem] dark:lg:pt-[4.75rem]">
       <div className="py-16 sm:px-2 lg:relative lg:px-0 lg:py-20">
@@ -91,13 +92,13 @@ export function Hero() {
               />
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-violet-300 via-violet-300/70 to-purple-300 opacity-10 blur-lg" />
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-violet-300 via-violet-300/70 to-purple-300 opacity-10" />
-              <div className="relative rounded-2xl bg-[#0A101F]/80 ring-1 ring-white/10 backdrop-blur">
+              <button className="relative rounded-2xl bg-[#0A101F]/80 ring-1 ring-white/10 backdrop-blur transition ease-in-out delay-50 hover:scale-105 duration-300" onClick={() => openModal(heroFull)}>
                 <div className="absolute -top-px left-20 right-11 h-px bg-gradient-to-r from-sky-300/0 via-violet-300/70 to-sky-300/0" />
                 <div className="absolute -bottom-px left-11 right-20 h-px bg-gradient-to-r from-purple-400/0 via-purple-400 to-purple-400/0" />
                 <div className="overflow-hidden rounded-2xl">
                   <Image className="w-full h-full" width="750" height="290" src={hero} alt="Ross/Ohio 2023 group photo" priority={true} />
                 </div>
-              </div>
+              </button>
             </div>
           </div>
         </div>

@@ -190,7 +190,7 @@ export function Layout({ children, title, tableOfContents }) {
       <ImageModal open={imageOpen} setOpen={setImageOpen} image={selectedImage} />
       <Header navigation={navigation} />
 
-      {isHomePage && <Hero />}
+      {isHomePage && <Hero openModal={openImageModal} />}
       {!isHomePage && <div className="-mt-1" />}
       
       <div className="relative mx-auto flex max-w-8xl justify-center sm:px-2 lg:px-8 xl:px-12">
