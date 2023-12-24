@@ -86,7 +86,7 @@ export default function ImageCarousel({ className, openModal }) {
     if (calculatedCount > images.length) {
       setCount(images.length)
     } else if (calculatedCount < 1) {
-      setCount(0)
+      setCount(1)
     } else {
       setCount(calculatedCount)
     }
