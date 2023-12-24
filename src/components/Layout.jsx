@@ -16,14 +16,17 @@ import ImageModal from './ImageModal'
 export const navigation = [
   {
     title: 'Overview',
+    href: '/',
+    colorLink: false,
     links: [
       { title: 'Introduction', href: '/' },
     ],
   },
   {
     title: 'Participants',
+    href: '/participants',
+    colorLink: true,
     links: [
-      { title: 'About', href: '/participants' },
       { title: 'FAQ', href: '/participants/faq' },
       {
         title: 'Course Topics',
@@ -34,15 +37,17 @@ export const navigation = [
   },
   {
     title: 'Counselors',
+    href: '/counselors',
+    colorLink: true,
     links: [
-      { title: 'About', href: '/counselors' },
       { title: 'To Apply', href: '/counselors/to-apply' },
     ],
   },
   {
     title: 'Alumni',
+    href: '/alumni',
+    colorLink: true,
     links: [
-      { title: 'About', href: '/alumni' },
       { title: 'Contribute', href: '/alumni/contribute'},
     ],
   },
