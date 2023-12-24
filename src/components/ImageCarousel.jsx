@@ -10,8 +10,12 @@ import img4 from "@/images/side/9E8A0414.jpg"
 import img5 from "@/images/side/9E8A0582.jpg"
 import img6 from "@/images/side/9E8A0941.jpg"
 import img7 from "@/images/side/9E8A2861.jpg"
+import img8 from "@/images/side/9E8A1091.jpg"
+import img9 from "@/images/side/9E8A1558.jpg"
+import img11 from "@/images/side/9E8A3826.jpg"
+import img12 from "@/images/side/_MG_0664.jpg"
 
-const images = [img1, img2, img3, img4, img5, img6, img7]
+const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img11, img12]
 shuffle(images)
 
 const delay = ms => new Promise(
