@@ -37,7 +37,7 @@ function ImageSet({ count, index, openModal }) {
   return (
     <>
       {randomImages.map((image, index) => (
-        <button key={index} onClick={() => openModal(image)} className="relative w-56 left-3 aspect-[3/2] rounded-lg ring-1 ring-slate-200 dark:ring-slate-800 shadow-md overflow-hidden transition ease-in-out delay-50 hover:scale-105 duration-300">
+        <button key={index} onClick={() => openModal(image)} className="relative w-56 left-3 aspect-[3/2] rounded-lg shadow-md overflow-hidden transition ease-in-out delay-50 hover:scale-105 duration-300">
           <Image src={image} alt="" fill={true} sizes="224px" className="object-cover" />
         </button>
       ))}
