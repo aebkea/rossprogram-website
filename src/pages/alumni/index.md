@@ -1,5 +1,5 @@
 ---
-title: About
+title: Alumni
 description: random stuff
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: About
+title: Participants
 description: Quidem magni aut exercitationem maxime rerum eos.
 ---
 
