@@ -92,13 +92,13 @@ export function Hero({ openModal }) {
               />
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-violet-300 via-violet-300/70 to-purple-300 opacity-10 blur-lg" />
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-violet-300 via-violet-300/70 to-purple-300 opacity-10" />
-              <button className="relative rounded-2xl bg-[#0A101F]/80 ring-1 ring-white/10 backdrop-blur transition ease-in-out delay-50 hover:scale-105 duration-300" onClick={() => openModal(heroFull)}>
+              <div className="relative rounded-2xl bg-[#0A101F]/80 ring-1 ring-white/10 backdrop-blur transition ease-in-out delay-50 hover:scale-105 duration-300 cursor-pointer" onClick={() => openModal(heroFull)}>
                 <div className="absolute -top-px left-20 right-11 h-px bg-gradient-to-r from-sky-300/0 via-violet-300/70 to-sky-300/0" />
                 <div className="absolute -bottom-px left-11 right-20 h-px bg-gradient-to-r from-purple-400/0 via-purple-400 to-purple-400/0" />
                 <div className="overflow-hidden rounded-2xl">
                   <Image className="w-full h-full" width="750" height="290" src={hero} alt="Ross/Ohio 2023 group photo" priority={true} />
                 </div>
-              </button>
+              </div>
             </div>
           </div>
         </div>
