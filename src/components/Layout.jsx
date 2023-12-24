@@ -20,6 +20,11 @@ export const navigation = [
     colorLink: false,
     links: [
       { title: 'Introduction', href: '/' },
+      { title: 'Mission Statement', href: '/mission-statement' },
+      { title: 'History', href: '/history' },
+      { title: 'Contribute', href: '/contribute' },
+      { title: 'Pictures', href: '/pictures' },
+      { title: 'Merch Store', href: '/merch' },
     ],
   },
   {
@@ -27,11 +32,9 @@ export const navigation = [
     href: '/participants',
     colorLink: true,
     links: [
+      { title: 'Life at the Ross Program', href: '/life-at-ross' },
+      { title: 'Mathematics at Ross', href: '/participants/math-at-ross' },
       { title: 'FAQ', href: '/participants/faq' },
-      {
-        title: 'Course Topics',
-        href: '/participants/course-topics',
-      },
       { title: 'To Apply', href: '/participants/to-apply' },
     ],
   },
@@ -48,7 +51,8 @@ export const navigation = [
     href: '/alumni',
     colorLink: true,
     links: [
-      { title: 'Contribute', href: '/alumni/contribute'},
+      { title: 'News and Comments', href: '/alumni/news-and-comments'},
+      { title: 'Ross Anecdotes', href: '/alumni/anecdotes' },
     ],
   },
 ]
