@@ -50,7 +50,7 @@ function collectHeadings(nodes, slugify = slugifyWithCounter()) {
   return sections
 }
 
-export default function App({ Component, pageProps }) {
+function commonLayout(page, pageProps) {
   let title = pageProps.markdoc?.frontmatter.title
 
   let pageTitle =
@@ -72,8 +72,17 @@ export default function App({ Component, pageProps }) {
         {description && <meta name="description" content={description} />}
       </Head>
       <Layout title={title} tableOfContents={tableOfContents}>
-        <Component {...pageProps} />
+        {page}
       </Layout>
     </>
+  )
+}
+
+export default function App({ Component, pageProps }) {
+  const getLayout = Component.getLayout || commonLayout
+
+  return getLayout(
+    (<Component {...pageProps} />),
+    pageProps
   )
 }

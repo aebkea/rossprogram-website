@@ -1,12 +1,7 @@
 import Link from "next/link"
-import { useEffect } from "react"
-import { useRouter } from "next/router"
+import Head from "next/head";
 
 export default function NotFound() {
-
-  const router = useRouter()
-
-  useEffect(() => {router.replace("/404")}, [])
 
   return (
     <>
@@ -36,3 +31,15 @@ export default function NotFound() {
     </>
   )
 }
+
+NotFound.getLayout = function getLayout(page) {
+  return (
+    <>
+      <Head>
+        <title>404</title>
+        <meta name="description" content="Page not found" />
+      </Head>
+      {page}
+    </>
+  );
+};
