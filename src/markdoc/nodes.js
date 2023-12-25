@@ -28,7 +28,7 @@ const nodes = {
     ...defaultNodes.heading,
     attributes: {
       ...defaultNodes.heading.attributes,
-      'shortHeading': {
+      'shortheading': {
         type: String,
       },
     },
