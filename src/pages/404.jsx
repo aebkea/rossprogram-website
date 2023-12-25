@@ -6,7 +6,7 @@ export default function NotFound() {
 
   const router = useRouter()
 
-  useEffect(() => {router.replace("/404")}, [router])
+  useEffect(() => {router.replace("/404")}, [])
 
   return (
     <>
