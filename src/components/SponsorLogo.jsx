@@ -1,5 +1,4 @@
 import { useId } from 'react'
-import clsx from 'clsx'
 
 import { AMSLogo } from '@/components/logos/AMSLogo'
 import { JaneStreetLogo } from '@/components/logos/JaneStreetLogo'
