@@ -1,5 +1,5 @@
 ---
-title: Course Topics
+title: Math at Ross
 description: Quidem magni aut exercitationem maxime rerum eos.
 ---
 
