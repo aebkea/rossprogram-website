@@ -31,7 +31,7 @@ export const navigation = [
     href: '/participants',
     colorLink: true,
     links: [
-      { title: 'Life at Ross', href: '/life-at-ross' },
+      { title: 'Life at Ross', href: '/participants/life-at-ross' },
       { title: 'Mathematics at Ross', href: '/participants/math-at-ross' },
       { title: 'FAQ', href: '/participants/faq' },
       { title: 'To Apply', href: '/participants/to-apply' },
