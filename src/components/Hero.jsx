@@ -1,39 +1,9 @@
-import { Fragment } from 'react'
 import Image from 'next/image'
-import clsx from 'clsx'
-import Highlight, { defaultProps } from 'prism-react-renderer'
-import { Math } from '@/components/Math'
 
-import { Button } from '@/components/Button'
 import { HeroBackground } from '@/components/HeroBackground'
-import blurCyanImage from '@/images/blur-cyan.png'
 import blurIndigoImage from '@/images/blur-indigo.png'
 import hero from '@/images/hero.png'
 import heroFull from '@/images/hero_full.jpg'
-
-const codeLanguage = 'javascript'
-const code = `export default {
-  strategy: 'predictive',
-  engine: {
-    cpus: 12,
-    backups: ['./storage/cache.wtf'],
-  },
-}`
-
-const tabs = [
-  { name: 'cache-advance.config.js', isActive: true },
-  { name: 'package.json', isActive: false },
-]
-
-function TrafficLightsIcon(props) {
-  return (
-    <svg aria-hidden="true" viewBox="0 0 42 10" fill="none" {...props}>
-      <circle cx="5" cy="5" r="4.5" />
-      <circle cx="21" cy="5" r="4.5" />
-      <circle cx="37" cy="5" r="4.5" />
-    </svg>
-  )
-}
 
 export function Hero({ openModal }) {
   return (
@@ -96,7 +66,7 @@ export function Hero({ openModal }) {
                 <div className="absolute -top-px left-20 right-11 h-px bg-gradient-to-r from-sky-300/0 via-violet-300/70 to-sky-300/0" />
                 <div className="absolute -bottom-px left-11 right-20 h-px bg-gradient-to-r from-purple-400/0 via-purple-400 to-purple-400/0" />
                 <div className="overflow-hidden rounded-2xl">
-                  <Image className="w-full h-full" width="750" height="290" src={hero} alt="Ross/Ohio 2023 group photo" priority={true} />
+                  <Image className="w-full h-full" width="750" height="290" quality="25" src={hero} alt="Ross/Ohio 2023 group photo" priority={true} />
                 </div>
               </div>
             </div>
