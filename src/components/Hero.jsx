@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 import { HeroBackground } from '@/components/HeroBackground'
-import blurIndigoImage from '@/images/blur-indigo.png'
+// import blurIndigoImage from '@/images/blur-indigo.png'
 import hero from '@/images/hero.png'
 import heroFull from '@/images/hero_full.jpg'
 
@@ -11,7 +11,7 @@ export function Hero({ openModal }) {
       <div className="py-16 sm:px-2 lg:relative lg:px-0 lg:py-20">
         <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 lg:max-w-8xl lg:grid-cols-2 lg:px-8 xl:gap-x-16 xl:px-12">
           <div className="relative z-10 md:text-center lg:text-left">
-            <Image
+            {/* <Image
               className="absolute bottom-full right-full -mb-56 -mr-72 opacity-50"
               src={blurIndigoImage}
               alt=""
@@ -19,7 +19,7 @@ export function Hero({ openModal }) {
               height={530}
               unoptimized
               priority
-            />
+            /> */}
             <div className="relative">
               <p className="inline bg-gradient-to-r from-fuchsia-200 via-violet-400 to-fuchsia-200 bg-clip-text font-display font-medium text-4xl min-[434px]:text-5xl tracking-tight text-transparent">
                 Ross Mathematics Program
@@ -42,7 +42,7 @@ export function Hero({ openModal }) {
               </div>
             </div>
             <div className="relative">
-              <Image
+              {/* <Image
                 className="absolute -right-64 -top-64"
                 src={blurIndigoImage}
                 alt=""
@@ -59,7 +59,7 @@ export function Hero({ openModal }) {
                 height={567}
                 unoptimized
                 priority
-              />
+              /> */}
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-violet-300 via-violet-300/70 to-purple-300 opacity-10 blur-lg" />
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-violet-300 via-violet-300/70 to-purple-300 opacity-10" />
               <div className="relative rounded-2xl bg-[#0A101F]/80 ring-1 ring-white/10 backdrop-blur transition ease-in-out delay-50 hover:scale-105 duration-300 cursor-pointer" onClick={() => openModal(heroFull)}>
