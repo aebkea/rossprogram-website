@@ -1,9 +1,41 @@
-import { Fragment } from 'react'
-import { Dialog, Transition } from '@headlessui/react'
-import Image from 'next/image'
-// import { CheckIcon } from '@heroicons/react/24/outline'
+import { useState, useEffect, Fragment } from 'react';
+import { Dialog, Transition } from '@headlessui/react';
+import { useWindowSize } from './ImageCarousel';
+import Image from 'next/image';
 
 export default function ImageModal({ open, setOpen, image }) {
+  const [containerWidth, setContainerWidth] = useState(null);
+  const [needsScaling, setNeedsScaling] = useState(false)
+
+  const windowSize = useWindowSize()
+
+  useEffect(() => {
+    const updateHeight = () => {
+      if (image) {
+        const maxWidth = 672
+        const actualWidth = Math.min(maxWidth, windowSize.width)
+        const defaultHeight = actualWidth * image.height / image.width
+        if (defaultHeight >= 0.8 * windowSize.height) {
+          const scalingFactor = (0.8 * windowSize.height) / defaultHeight
+          const newWidth = actualWidth * scalingFactor
+          setContainerWidth(`${newWidth}px`)
+          setNeedsScaling(true)
+        } else {
+          setNeedsScaling(false)
+          setContainerWidth(null)
+        }
+      }
+    };
+
+    if (open) {
+      window.addEventListener('resize', updateHeight);
+      updateHeight();
+    }
+
+    return () => {
+      window.removeEventListener('resize', updateHeight);
+    };
+  }, [open, image, windowSize]);
 
   return (
     <Transition.Root show={open} as={Fragment}>
@@ -31,8 +63,8 @@ export default function ImageModal({ open, setOpen, image }) {
               leaveFrom="opacity-100 translate-y-0 sm:scale-100"
               leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
             >
-              <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-2xl sm:p-6 dark:bg-slate-900">
-                <Image src={image} placeholder="blur" className="rounded-sm" />
+              <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-fit sm:max-w-2xl sm:p-6 dark:bg-slate-900" style={ needsScaling ? { width: containerWidth } : {} }>
+                <Image id="imageModal" src={image} alt="" placeholder="blur" className="rounded-sm max-h-[calc(80vh-6rem)] object-contain" />
                 <div className="mt-5 sm:mt-6">
                   <button
                     type="button"
