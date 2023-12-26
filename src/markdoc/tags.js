@@ -111,6 +111,7 @@ const tags = {
       description: { type: String },
       logo: { type: String },
       href: { type: String },
+      alt: { type: String },
     },
   },
   'blockquote': {

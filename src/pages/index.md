@@ -48,9 +48,9 @@ The Ross Program is supported in several ways. Partners in this mathematical ent
 
 {% sponsors columns="3" %}
 
-{% sponsor logo="ams" href="https://ams.org" /%}
-{% sponsor logo="janeStreet" href="/" /%}
-{% sponsor logo="cakeShopCapital" href="/" /%}
+{% sponsor logo="ams" href="https://ams.org" alt="AMS" /%}
+{% sponsor logo="janeStreet" href="/" alt="Jane Street" /%}
+{% sponsor logo="cakeShopCapital" href="/" alt="Cake Shop Capital" /%}
 
 {% /sponsors %}
 
