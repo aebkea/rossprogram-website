@@ -29,6 +29,16 @@ Beginning students who do well are invited to return as junior counselors or cou
 
 Many alumni of the Ross Program have kept in contact with us. Some of their enthusiasm for the Program is evident in their comments posted on the [alumni news and comments](alumni/news) page.
 
+## Eligibility
+
+Ambitious pre-college students with interests in mathematics and science are invited to [apply](students/apply). First-year students range in age from 15 to 18 years old. (In rare cases, younger or older students are accepted.) Admission decisions are based on several critera, including: school transcripts, teacher recommendations, essays concerning the applicant's interests and goals, and the applicant's work on some challenging math problems.
+
+Undergraduate math majors and math graduate students are invited to [apply to be a Ross Counselor](counselors/apply).
+
+{% callout type="warning" title="Late start" %}
+The Ross Program cannot accommodate students who must arrive more than two days after the start of classes.
+{% /callout %}
+
 ## Nondiscrimination Policy
 
 The Ross Mathematics Program admits students of any race, color, national origin, and ethnic origin to all the rights, privleges, programs, and activities generally accorded or made available to students at the Ross Program. It doesn't discriminate on the basis of race, color, national origin, and ethnic origin in administration of its educational policies, admission policies, scholarship and loan programs, and athletic and other Ross-administered programs.

@@ -11,9 +11,13 @@ The application portal is now available. Begin your application by visiting the 
 
 The deadline for Ross applications is March 31. Applications submitted after that date might not receive full consideration. The Ross Admissions Committe will start reading applications on April 1. Acceptance decisions will be emailed later that month.
 
-## Financial Information
+## Costs and Financial Aid
 
-The fee to attend the 2023 Ross/USA Program is $6000. That fee covers all room and board costs and and all instructional expenses.
+Each Ross student is asked to pay a program fee of $6000. Those funds are used to pay for six weeks of room and board, to hire instructors and counselors, and to cover incidental costs of developing and running math courses.
+
+{% callout title="Financial aid" %}
+[Financial aid](students/faq/#are-scholarships-available) is certainly available. Accepted applicants are encouraged to apply for aid if their families have some financial need. We hope to provide enough support to enable every accepted applicant to attend this great Program.
+{% /callout %}
 
 ## Scholarships
 

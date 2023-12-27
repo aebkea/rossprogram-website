@@ -6,8 +6,6 @@ description: Think deeply about simple things.
 
 The Ross Program is an intensive summer experience designed to encourage motivated pre-college students to explore mathematics. During those weeks, students are immersed in a world of mathematical discovery. {% .lead %}
 
-[Dr. Arnold Ross](alumni/biography) founded this multi-level program at Notre Dame University in 1957. Its growth was then spurred by the launch of the Sputnik satellite and the subsequent surge of interest in science education. Arnold Ross's Program has run every summer since then, associated mostly with Ohio State University from 1964 through 2018. In 2019, the Program moved to [Ohio Dominican University](https://ohiodominican.edu). In 2020 and 2021 the Ross Program was entirely online, but in-person sessions resumed in 2022 at Ohio Dominican University and [Rose-Hulman Institute of Technology](https://rose-hulman.edu).
-
 Our central goal has always been to instruct bright young students in the art of mathematical thinking and to inspire them to discover for themselves that abstract ideas are valuable and important. First year participants take the basic course in number theory. For most students, this is the first time they are asked to consider entirely new questions, to develop methods that they have not seen before, and to justify every answer.
 
 The value of a mathematics education lies not only in obtaining proficiency in computational tasks, but also in building a foundation for critical thinking. Students who have never asked why things work the way they do are not prepared to lead the way to future scientific innovation. It is precisely this independence of thought and questioning attitude that the Ross Program strives to nurture.
@@ -23,24 +21,6 @@ The value of a mathematics education lies not only in obtaining proficiency in c
 {% quick-link title="Alumni" icon="theming" href="/" description="Learn to easily customize and modify your app's visual design to fit your brand." /%}
 
 {% /quick-links %}
-
-## Eligibility
-
-Ambitious pre-college students with interests in mathematics and science are invited to [apply](students/apply). First-year students range in age from 15 to 18 years old. (In rare cases, younger or older students are accepted.) Admission decisions are based on several critera, including: school transcripts, teacher recommendations, essays concerning the applicant's interests and goals, and the applicant's work on some challenging math problems.
-
-Undergraduate math majors and math graduate students are invited to [apply to be a Ross Counselor](counselors/apply).
-
-{% callout type="warning" title="Late start" %}
-The Ross Program cannot accommodate students who must arrive more than two days after the start of classes.
-{% /callout %}
-
-## Costs and Financial Aid
-
-Each Ross student is asked to pay a program fee of $6000. Those funds are used to pay for six weeks of room and board, to hire instructors and counselors, and to cover incidental costs of developing and running math courses.
-
-{% callout title="Financial aid" %}
-[Financial aid](students/faq/#are-scholarships-available) is certainly available. Accepted applicants are encouraged to apply for aid if their families have some financial need. We hope to provide enough support to enable every accepted applicant to attend this great Program.
-{% /callout %}
 
 ## Ross Program Support
 
