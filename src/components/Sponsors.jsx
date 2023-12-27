@@ -14,7 +14,7 @@ export function Sponsors({ columns, children }) {
 
 export function Sponsor({ title, description, href, logo, alt }) {
     return (
-        <Link href={href} className="group relative grid content-center rounded-xl border border-slate-200 dark:border-slate-800">
+        <Link href={href} className="group relative grid content-center rounded-xl border border-slate-200 dark:border-slate-800 shadow-md">
             <div className="absolute -inset-px rounded-xl border-2 border-transparent opacity-0 [background:linear-gradient(var(--quick-links-hover-bg,theme(colors.violet.50)),var(--quick-links-hover-bg,theme(colors.violet.50)))_padding-box,linear-gradient(to_top,theme(colors.indigo.400),theme(colors.cyan.400),theme(colors.violet.500))_border-box] group-hover:opacity-100 dark:[--quick-links-hover-bg:theme(colors.slate.800)]" />
             <div className="relative overflow-hidden rounded-xl p-6">
                 <SponsorLogo logo={logo} className={clsx("mx-auto", logo === "cakeShopCapital" ? "w-2/3" : "w-full")} />
