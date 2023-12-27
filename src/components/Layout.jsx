@@ -23,7 +23,7 @@ export const navigation = [
       { title: 'History', href: '/history' },
       { title: 'Contribute', href: '/contribute' },
       { title: 'Pictures', href: '/pictures' },
-      { title: 'Merch Store', href: '/merch' },
+      { title: 'Merch Store', href: 'https://store.rossprogram.org', external: true },
     ],
   },
   {
