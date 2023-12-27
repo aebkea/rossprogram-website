@@ -50,7 +50,6 @@ const tags = {
     attributes: {
       title: { type: String },
       description: { type: String },
-      icon: { type: String },
       href: { type: String },
     },
   },

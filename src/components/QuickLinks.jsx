@@ -2,8 +2,6 @@ import Link from 'next/link'
 
 import clsx from 'clsx'
 
-import { Icon } from '@/components/Icon'
-
 export function QuickLinks({ columns, children }) {
   return (
     <div className={clsx("not-prose my-12 grid grid-cols-1 gap-6",
@@ -18,12 +16,11 @@ export function QuickLinks({ columns, children }) {
   )
 }
 
-export function QuickLink({ title, description, href, icon }) {
+export function QuickLink({ title, description, href }) {
   return (
     <div className="group relative rounded-xl border border-slate-200 dark:border-slate-800 shadow-md">
       <div className="absolute -inset-px rounded-xl border-2 border-transparent opacity-0 [background:linear-gradient(var(--quick-links-hover-bg,theme(colors.violet.50)),var(--quick-links-hover-bg,theme(colors.violet.50)))_padding-box,linear-gradient(to_top,theme(colors.indigo.400),theme(colors.cyan.400),theme(colors.violet.500))_border-box] group-hover:opacity-100 dark:[--quick-links-hover-bg:theme(colors.slate.800)]" />
       <div className="relative overflow-hidden rounded-xl p-6">
-        {/* <Icon icon={icon} className="h-8 w-8" /> */}
         <h2 className="font-display text-xl font-medium text-slate-900 dark:text-white">
           <Link href={href}>
             <span className="absolute -inset-px rounded-xl" />

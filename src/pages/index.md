@@ -10,13 +10,13 @@ At the Ross Program, we provide students with a focused and supportive environme
 
 {% quick-links %}
 
-{% quick-link title="Participants" icon="installation" href="/" description="Learn more about life and mathematics at Ross, and how to apply to participate!" /%}
+{% quick-link title="Participants" href="/" description="Learn more about life and mathematics at Ross, and how to apply to participate!" /%}
 
-{% quick-link title="Counselors" icon="presets" href="/" description="Learn more about teaching at Ross, and how to apply to be a Ross counselor." /%}
+{% quick-link title="Counselors" href="/" description="Learn more about teaching at Ross, and how to apply to be a Ross counselor." /%}
 
-{% quick-link title="Mission Statement" icon="plugins" href="/" description="Learn more about the core values and aims of the Ross program." /%}
+{% quick-link title="Mission Statement" href="/" description="Learn more about the core values and aims of the Ross program." /%}
 
-{% quick-link title="Contribute" icon="theming" href="/" description="Help support the Ross Program!" /%}
+{% quick-link title="Contribute" href="/" description="Help support the Ross Program!" /%}
 
 {% /quick-links %}
 
