@@ -16,7 +16,7 @@ export function PaymentButtons({ columns, children }) {
 
 export function PaymentButton({ title, description, priceId, colStart, colEnd }) {
     return (
-        <div className={clsx("group relative grid content-center rounded-xl border border-slate-200 dark:border-slate-800",
+        <div className={clsx("group relative grid content-center rounded-xl border border-slate-200 dark:border-slate-800 shadow-md",
           colEnd === "1" ? "sm:col-end-1" :
             colEnd === "2" ? "sm:col-end-2" :
               colEnd === "3" ? "sm:col-end-3" :
