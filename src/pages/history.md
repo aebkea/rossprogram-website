@@ -22,7 +22,7 @@ Arnold Ross left Notre Dame in 1963 to become chair of the department of mathema
 
 Every summer, Dr. Ross used Number Theory as the vehicle for his teaching.  As Ross wrote, “Number theory proper and its rich environment are a fertile ground for exploration and are a valuable source for nontrivial but accessible problems.” [Footnote: From his response to the AMS [1998 Citation for Public Service](http://www.ams.org/notices/199804/comm-cit-pubserv.pdf "www.ams.org/notices/199804/comm-cit-pubserv.pdf").]  Ross Program participants work on intriguing problems about numbers and share results of their observations and explorations with others.  Ross campers (first-year students) live in a college dormitory next to returning students and counselors.  Participants in this multi-level program form a community of young scholars in which a vivid exchange of ideas between newcomers and program veterans enriches their lives.  This method exemplifies Ross’s motto:
 
-> “Think deeply about simple things.”
+> Think deeply about simple things.
 
 Those challenging summer experiences provide long-lasting intellectual benefits. Over the years alumni have submitted [reports](http://u.osu.edu/rossmath/alumni/news-and-comments/ "alumni_reports") that verify the value of this sort of training.
 
@@ -30,7 +30,7 @@ In 2002 we posted a short [biography](http://u.osu.edu/rossmath/alumni/biography
 
 The next section is a narrative that includes memories of the stories that Arnold Ross told about himself and about the origins of his summer program. We welcome your comments, suggestions, and corrections.
 
-## Years in Russia.
+## Years in Russia
 
 Arnold Ephraim Chaimovitch was born in Chicago in 1906 to Isaac Chaimovitsch and Clara Greenberg, immigrants from Odessa, Russia, who married in Chicago on May 3, 1905\.   [N.B. English spelling differs between Arnold's and Isaac's documents.]  His mother returned to Odessa with little “Noli” in 1909, moving back to live with her parents.  Arnold’s uncle was a well-respected doctor in Odess who helped support the family, but there were major social and economic troubles during those years, centering on World War I, the Russian Revolution, and the start of the USSR.
 
@@ -40,13 +40,13 @@ Since the Soviet economy was so bad in the early 1920s, even research professors
 
 One of the other boys in that group was Felix Gantmacher (or Feliks Gantmakher, nicknamed Fele). He later became a distinguished Soviet mathematician who wrote a classic treatise on linear algebra.
 
-## Leaving Soviet Russia.
+## Leaving Soviet Russia
 
 Getting permission to leave Soviet Russia in 1922 was not easy. Native born Russians were not allowed to leave the country, but Arnold could claim American citizenship because he was born in Chicago. Since the United States had no diplomatic relations with the new USSR, Arnold could not get an American passport in Odessa. His father arranged for Arnold’s passport to be available at the US consulate in Constantinople (now Istanbul), across the Black Sea. The Soviet bureaucrat in the Odessa mayor’s office refused to give Arnold permission to leave without that passport. Ross often told us the story of how he went to that bureaucrat’s office every day, repeatedly asking for permission to leave. After many days of doing this, that official finally called 16-year-old Arnold into the office, told him to keep quiet about this situation, and gave him a document permitting him to leave.
 
 Arnold purchased a ticket on a ship to Constantinople but couldn’t travel on that day because he had some illness … and that ship sank! He traveled some weeks later, and arrived in Constantinople. While walking from the dock to the American consulate, he was bothered by a whirling dervish who followed him for several blocks. [Ross never mentioned further details about his time in Constantinople.] He got the passport, took ships that eventually arrived in New York City, and finally took a train to Chicago to live with his father.
 
-## In Chicago.
+## In Chicago
 
 On his first night there he met Bertha Halley Horecker, nicknamed Bee, the daughter of some family friends.  (She is related to the Edmund Halley of comet fame. ) Bee was well educated and loved to sing classical music. The story is that they quickly fell in love, but postponed marriage until 1931, soon after he earned his PhD.
 
@@ -62,23 +62,23 @@ After getting an undergraduate degree, Ross decided to work on his PhD under the
 
 Ross took some courses from Professor G.A. Bliss who also helped him navigate through college. Gordon Pall and A. Adrian Albert were fellow math graduate students, although a few years older. Ross was close friends with Pall, but viewed Albert as overly formal and pretentious. However, Bee and Albert’s wife Frieda were close friends.
 
-## After graduating.
+## After graduating
 
 Ross married Bee soon after graduating in 1931\. They remained very close for more than fifty years, but did not have children.
 
 Ross spent 1931 - 1933 at Caltech, partially supported by a a National Research Fellowship.  He worked as a postdoc with [E. T. Bell](http://en.wikipedia.org/wiki/Eric_Temple_Bell). When asked, Ross said that he greatly admired Bell but gave no further details of his time in California. Arnold and Bee returned to Chicago in the mid-1930s when paying jobs were scarce. He helped create [People’s Junior College](http://archives.chicagotribune.com/1936/05/10/page/45/article/peoples-junior-college-to-give-summer-course) in Chicago, an experimental venture put together by a group of unemployed postdocs representing English, foreign languages, sciences, and economics.  Ross taught math classes to economics students who paid for their schooling in trade (food or labor) rather than cash.  This institution lasted only a few years, and the name suggests that some left-wing political sympathies were involved.
 
-## Saint Louis University.
+## Saint Louis University
 
 Ross found a salaried position at Saint Louis University, a Jesuit (Catholic) college.  He was an Instructor in 1935, Assistant Professor in 1939, Associate Professor in 1944, and left St Louis for Notre Dame in 1946. During his time at SLU, Ross directed several Masters Degree students and two PhD students. One of the Masters students was Margaret Cecil Gerdine Taylor, who graduated shortly after SLU desegregated.  (Few African American women enrolled in math graduate programs at that time.)  
 
 Ross's PhD students at St. Louis University were:  Margaret Frances Willerding (1947) and L. Thomas Matthews (1948), graduating a year or two after Ross had departed.   Both of their dissertations involved representations of integral quadratic forms. In 2001 I telephoned Professor Willerding, a retired professor at San Diego State University, and asked about her experiences with Arnold Ross.  She said that he took a deep personal interest in all of his students, and [to her annoyance] he even tried to arrange a marriage for her to his friend Eugene Guth.  She was a bit embarrassed to admit that she thought that Ross was a terrible teacher, giving unorganized lectures and never keeping to the topic.  Willerding also remarked that Bee Ross accompanied Arnold to all of his lectures, sitting quietly in the audience.  (Twenty years later, in the 1960s at Ohio State, Bee never attended Arnold’s lectures.)
 
-## War Work.
+## War Work
 
 During the war years, Ross took leaves from Saint Louis University and worked for the U.S. Navy doing applied mathematical work associated with proximity fuzes. Ross met many other mathematicians and scientists doing war work during those years, and built an extensive network of mathematical friends and acquaintances.  Ross seldom talked about his activities during those years, so there is little to report.
 
-## Notre Dame.
+## Notre Dame
 
 The story is that Ross was a close friend of Notre Dame physicist [Eugene Guth](https://en.wikipedia.org/wiki/Eugene_Guth), who urged university president John J. Cavanaugh to hire Ross to succeed Karl Menger as Head of the Math Department.  In 1946 Ross went to Notre Dame as department head and within a year he started a summer program for in-service high school math teachers.  Creating this program took some effort because most high school math teachers were women, and no females were allowed on the Notre Dame campus in those days.  Ross was able to arrange a special dispensation to allow women to attend classes during those summer weeks. The teacher program grew larger with support from the National Science Foundation, peaking at more than 200 participants for the seven-week session.  Ross prepared some reports on the success of this program for teachers.  Here are samples from [**1959**](https://u.osu.edu/rossmath/files/2014/12/1959-Training-Program-2k6l8yy.pdf) and [**1963**](http://u.osu.edu/rossmath/files/2014/12/1963-Training-Program-to7j1c.pdf). That 1959 report mentions his experiments in using closed-circuit television as a teaching tool.
 
@@ -94,7 +94,7 @@ Ross was an advisor and mentor to several bright young math students at Notre Da
 *   [John Polking](http://math.rice.edu/~polking/) (Rice University math professor).
 *   [Manuel Berriozábal](http://www.maa.org/programs/underrepresented-groups/summa/summa-archival-record/manuel-p-berriozabal) (University of Texas at San Antonio math professor and founder of [TexPREP](https://www.givepulse.com/group/138735-San-Antonio-Texas-Prefreshman-Engineering-Program-PREP).
 
-## Start of the Ross Program.
+## Start of the Ross Program
 
 By the late 1950s the teacher program, supported by the National Science Foundation, involved hundreds of math teachers every summer, with some of them continuing with an Academic Year Institute to earn a Masters Degree.  Ross was pleased that he was able to convince many distinguished colleagues to teach classes for those teachers (with some of the more advanced high school students attending).  Those instructors included S. Chowla, Max Dehn, H. D. Kloosterman, Walter Ledermann, Joseph Landin, Kurt Mahler, E.J. McShane, Norman Oler, W. W. Rogosinski, Helmut Röhrl, Thoralf Skolem, and Ivo Thomas.  Short term visitors, each presenting one or two lectures, included people like Adrian Albert, Alfred Brauer, Richard Brauer, Paul Erdös, Hans Jonas, Solomon Lefschetz, Wilhelm Magnus, Marston Morse, John Todd, and Harry Vandiver.
 
@@ -104,7 +104,7 @@ Ross found that he enjoyed working with bright young students, and the teacher c
 
 Ross had close connections with [Paul Erdös](http://en.wikipedia.org/wiki/Paul_Erd%C5%91s "en.wikipedia.org/wiki/Paul_Erd%C5%91s"), as mentioned in his article _[Remembering Paul](http://u.osu.edu/rossmath/files/2015/01/Remembering-Paul-2fmif9i.pdf "Mathematics-Bolyai-Society-Mathematical-Studies/dp/3540422366 ")._ He offered Erdös a professorship at Notre Dame, but Erdös chose to travel without keeping a home base at any one university. We found several handwritten Erdös letters to Ross, and one of them mentioned the “epsilons” that Ross was teaching every summer.
 
-## Move to Ohio State.
+## Move to Ohio State
 
 In Autumn 1963 Arnold Ross was appointed chair of the Department of Mathematics at Ohio State. Ross did not tell stories about the reasons for this move, but other people who were at Notre Dame at that time told me that a new dean was appointed in the early 1960s. That dean resisted Ross’s practice of avoiding proper channels, pursuing new projects without working through the dean’s office. In addition, several math faculty members at Notre Dame were disgruntled by Ross’s authoritative style and complained about their lack of input. Those pressures induced Ross to look for employment elsewhere.
 
@@ -116,13 +116,13 @@ Several mathematicians at Ohio State were involved with Prof. Ross' summer progr
 
 The National Science Foundation funded many SSTPs (Summer Science Training Programs) in the 1960s, as part of an American response to the Soviet space program.  For more than two decades Dr. Ross supported his SSTP (later called a Young Scholars Program) almost entirely from NSF grants.  Funding was sometimes restricted to rising seniors (students entering their senior year of high school), and the NSF did not provide funds for a student to return to the same program for a second time.  Ross considered those restrictions to be misguided, and insisted on a multi-level program that involved students at several ages and mathematical levels.  He found other sources of support for younger and older participants.
 
-## Ross Retirement and moving the Program.
+## Ross Retirement and moving the Program
 
 Ross stepped down as professor and department chair in 1976 because of mandatory retirement policies at Ohio State. During his last years of active employment he tried to find ways for his Program to survive. He worked with his friend [Felix Browder](https://en.wikipedia.org/wiki/Felix_Browder) to move the Ross Program to the University of Chicago. The plan was that Ross would run the Program there for a few years and then others would take over, using the same teaching methods. Ross led his program in Chicago for four summers, 1975 – 1978 and then left it for others to run.
 
 During those summers in Chicago, Dr. Ross had close contacts with faculty members [Paul Sally](http://en.wikipedia.org/wiki/Paul_Sally "en.wikipedia.org/wiki/Paul_Sally") and [Charles Fefferman](http://en.wikipedia.org/wiki/Charles_Fefferman "en.wikipedia.org/wiki/Charles_Fefferman"). He had many discussions with them about effective ways to teach math to various types of students.
 
-## Restarting at Ohio State.
+## Restarting at Ohio State
 
 In the Spring of 1979 Ross learned that the mathematicians running the Chicago program were not going to use an "inquiry-based" teaching style. Instead the Program would be taught as a standard number theory course, without the open-ended problem sets and without much pressure on students to immerse themselves in math. Ross felt obliged to re-create his program at Ohio State, starting it on short notice, with a tiny budget, using volunteer instructors. He was able to attract only one or two of the trained counselors from the Chicago program. Ross recruited Gloria Woods (wife of OSU Professor Alan Woods) to help organize things, and during the next few years she became deeply involved with running the Program. The students they were able to recruit during the next few years were younger that those typically attending the Program in earlier summers. Ross realized that his Program was still effective for bright students who were 13 or 14 years old. After 1980 he continued to allow such young students to enroll, even though their social immaturity sometimes caused behavior problems in a college dormitory setting.
 
@@ -152,7 +152,7 @@ In 2018 we realized that the Ross Program could not continue its close connectio
 
 The 2019 session of the Ross/USA program was held at the Ohio Dominican University on the east side of Columbus, Ohio. We expect the 2020 session to be located there again.
 
-## Awards and honors.
+## Awards and honors
 
 Professor Ross earned many honors for teaching and service, both from OSU and from national organizations like the MAA ([Award for Distinguished Service](http://maa.org/awards/gunghu.html "Gung and Hu Award page on Mathematical Association of America website"), 1986) and the AMS ([1998 Citation for Public Service](http://www.ams.org/notices/199804/comm-cit-pubserv.pdf "www.ams.org/notices/199804/comm-cit-pubserv.pdf")).  Ross also received the Ohio State University’s 1981 [Distinguished Service Award](https://www.osu.edu/universityawards/), and an honorary degree from Denison University. The [Arnold Ross Lecture Series](http://www.ams.org/meetings/ross-lect.html "Arnold Ross Lectures page on American Mathematical Society website"), run by the American Mathematical Society, is a wonderful program in which outstanding mathematicians present lectures to audiences of high school students. The series was initiated by Paul Sally and named after Ross in 1993, in honor of his many contributions to the development of mathematical talent.  The lectures are presented every year or so in different cities across the United States.
 
@@ -160,7 +160,7 @@ In addition to his accomplishments and awards, Dr. Ross is remembered for his de
 
 After working so many years at the Ross Program, I was awarded the Ohio State University's 2014 [Distinguished Service Award](https://www.osu.edu/universityawards/2014/dsa.html).  
 
-## Ross problem sets.
+## Ross problem sets
 
 In the 1960s the problem sets were handwritten and duplicated from ditto masters. In the early years Dr. Ross made changes in the sets every year, sometimes just tweaking a few problems but other times substituting new topics for old. In the 1990s Daniel Bernstein (one of the counselors) typed up the problem sets in TeX. After that the sets seemed to have stayed nearly unchanged until 2001\. Students and counselors across several years often referred to particular problems by their location rather than content. (“I struggled with  P7 set 10, … ”)
 
@@ -168,13 +168,13 @@ The problems in each set are grouped into categories like Terminology, Numerical
 
 After becoming Director, I asked some former counselors to help rework the sets for the 2001 session. Anna Medvedovsky and Noah Snyder worked many hours to reorganize the problem sets and type them in LaTeX. They traced all the threads of ideas in the original sets and rewove them to slow down the pace in the early weeks and speed it up later on. During the following years I made several small changes in the sets, and and so did Warren Sinnott, who led the Ross Number Theory class during 2006 – 2008. The Ross problem sets were reworked again by Jim Fowler around 2015, and more extensive changes were made during 2016 - 2019 when Fowler took over the Number Theory lectures.
 
-## Switch to a six-week format.
+## Switch to a six-week format
 
 The Ross Program ran for eight weeks every summer from 1957 to 2011\. For various political reasons, the Ohio State University changed from the quarter-system to the semester-system in 2012\. Instead of having Autumn Quarter classes start in mid September, they decided to begin Autumn Semester classes in mid August. This calendar change forced the Ross Program to end before August 1, and it suddenly became a six-week program.
 
 Since 2012, we have edited the sets to fit all those great topics more neatly into the shorter time frame. (Some students suggested that we simply distribute problem sets on Saturdays and Sundays to accommodate the two missing weeks’ worth of problems. That didn’t seem feasible.)
 
-## Sister Programs.
+## Sister Programs
 
 After his retirement in the 1970s, Arnold Ross established some related programs at other universities, spurred by the worry that his program at Ohio State would get little support from subsequent chairs of the math department. In addition to moving his program to the University of Chicago in 1975, he convinced colleagues to establish programs in other countries during those years.
 
@@ -195,7 +195,7 @@ In the late 1980s a few alumni realized that they could continue the Ross tradit
 Dr. Ross was deeply gratified to see the success of those two programs founded by alumni of his program.  In recent years, some other Ross alumni have mentioned that they would like to create their own summer math programs, following the inspiration of Arnold Ross.
 
 
-## Bibliography of Arnold Ross.
+## Bibliography of Arnold Ross
 
 1\. [On certain universal and zero indefinite ternary quadratic forms](http://www.ams.org/journals/bull/1930-36-05/S0002-9904-1930-04955-1/S0002-9904-1930-04955-1.pdf), _Bull. Amer. Math. Soc_. **36** (1930), 364\.  Abstract #276
 
@@ -277,7 +277,7 @@ on Talent Development,_ N. Colangelo, S. G. Assouline, & D. L. Ambroson (eds.) 3
 
 38\. [Quo Vadis America](http://u.osu.edu/rossmath/files/2015/01/Quo-Vadis-America-1d16rtk.pdf), in: _Intellectual Talent: Psychometric and Social Issues_.  Camilla Persson Benbow and David Lubinski, eds. The Johns Hopkins Univ. Press, 1996, Chapter 13, pp. 221-224.  The Davidson Institute also posted [that article](http://www.davidsongifted.org/Search-Database/entry/A10231).
 
-### **Articles about Arnold Ross or his summer program:**
+## Articles about Arnold Ross or his summer program
 
 Browder, Felix; Youthful enjoyment of rigorous thinking, _University of Chicago Magazine_, (Winter 1975). <br>
 Describes the 1975 Ross Program held at the University of Chicago.  
