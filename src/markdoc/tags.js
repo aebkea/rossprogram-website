@@ -4,6 +4,7 @@ import { QuickLink, QuickLinks } from '@/components/QuickLinks'
 import { Sponsor, Sponsors } from '@/components/Sponsors'
 import { PaymentButton, PaymentButtons } from '@/components/PaymentButtons'
 import { Blockquote } from '@/components/Blockquote'
+import { PicturesPage } from '@/components/PicturesPage'
 
 const tags = {
   callout: {
@@ -117,6 +118,13 @@ const tags = {
     render: Blockquote,
     attributes: {
       quoteless: { type: String },
+    },
+  },
+  'pictures-page': {
+    render: PicturesPage,
+    selfClosing: true,
+    attributes: {
+      year: { type: String },
     },
   },
 }
