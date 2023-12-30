@@ -43,6 +43,8 @@ export const navigation = [
     href: '/counselors',
     colorLink: true,
     links: [
+      { title: 'Responsibilities', href: '/counselors/responsibilities' },
+      { title: 'Administrators', href: '/counselors/administrators' },
       { title: 'To Apply', href: '/counselors/to-apply' },
     ],
   },
