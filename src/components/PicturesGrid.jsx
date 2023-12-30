@@ -38,7 +38,7 @@ function ImageItem({ image, openImageModal }) {
 }
 
 // Updated PicturesGrid component
-export function PicturesGrid({ images }) {
+export function PicturesGrid({ images, count }) {
   const [imageOpen, setImageOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
   const [imageWidth, setImageWidth] = useState(null);
@@ -51,11 +51,13 @@ export function PicturesGrid({ images }) {
     setImageOpen(true);
   }
 
+  const reducedImages = count > 0 ? images.slice(0,count) : images;
+
   return (
     <>
       <ImageModal open={imageOpen} setOpen={setImageOpen} image={selectedImage} unoptimized={false} width={imageWidth} height={imageHeight} />
       <div className="not-prose grid grid-cols-2 sm:grid-cols-3 gap-4 pr-0 lg:pr-4 xl:pr-0">
-        {images && images.map(image => (
+        {images && reducedImages.map(image => (
           <ImageItem key={image.assetId} image={image} openImageModal={openImageModal} />
         ))}
       </div>

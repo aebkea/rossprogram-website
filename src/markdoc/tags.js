@@ -126,18 +126,19 @@ const tags = {
     selfClosing: true,
     attributes: {
       year: { type: String },
+      count: { type: String },
     },
     async transform(node, config) {
       if (typeof window === 'undefined') {
         try {
           const cloudinary = require('@/lib/server/cloudinary')
 
-          const { year } = node.attributes
+          const { year, count } = node.attributes
           const attributes = node.transformAttributes(config)
 
-          const { images, totalCount, nextCursor } = await cloudinary.search(`folder="${year}" AND resource_type=image`)
+          const { images, totalCount: queryCount } = await cloudinary.search(`folder="${year}" AND resource_type=image`)
 
-          return new Tag(this.render, { ...attributes, images, totalCount, nextCursor }, node.transformChildren(config))
+          return new Tag(this.render, { ...attributes, images, count, queryCount }, node.transformChildren(config))
 
         } catch (e) {
           console.error(e)
