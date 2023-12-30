@@ -12,7 +12,7 @@ The application portal is now available. Begin your application by visiting the 
 - school transcript, and
 - work on some challenging math problems.
 
-If you have any quetions or otherwise, please feel free to email us at [ross@rossprogram.org](mailto:ross@rossprogram.org). Note that we will not provide hints on how to solve the math problems posted, but we can answer clarifying questions regarding terminology, phrasing, etc.
+If you have any quetions or otherwise, please feel free to email us at [ross@rossprogram.org](mailto:ross@rossprogram.org). Note that we will not provide hints on how to solve the math problems posted, but we can answer clarifying questions regarding terminology and phrasing, etc.
 
 ## Application Deadline
 
