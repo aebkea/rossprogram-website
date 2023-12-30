@@ -8,7 +8,7 @@ import { scale } from "@cloudinary/url-gen/actions/resize";
 
 import ImageModal from "@/components/ImageModal";
 
-export function PicturesPage({ year }) {
+export function PicturesGrid({ images }) {
 
   const cld = new Cloudinary({
     cloud: {
@@ -27,29 +27,6 @@ export function PicturesPage({ year }) {
     setSelectedImage(image.url)
     setImageOpen(true)
   }
-
-  const [images, setImages] = useState([])
-  const [nextCursor, setNextCursor] = useState(undefined)
-  const [totalCount, setTotalCount] = useState(0)
-  const [activeFolder, setActiveFolder] = useState("2023")
-  
-  useEffect(() => {(async function run() {
-      const results = await fetch('/api/cloudinary/search', {
-        method: 'POST',
-        body: JSON.stringify({
-          expression: `folder="2023" AND resource_type=image`
-        })
-      })
-      .then(r => r.json())
-
-      console.log(results)
-
-      setImages(results.images);
-      setNextCursor(results.nextCursor);
-      setTotalCount(results.totalCount);
-    })();
-  }, []);
-
 
   return (
     <>

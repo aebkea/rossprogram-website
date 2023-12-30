@@ -1,5 +1,5 @@
 import withMarkdoc from '@markdoc/next.js'
-import withSearch from './src/markdoc/search.mjs'
+// import withSearch from './src/markdoc/search.mjs'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -11,8 +11,11 @@ const nextConfig = {
   images: {
     domains: ['res.cloudinary.com'],
   },
+  webpack: (config) => {
+    config.resolve.fallback = { fs: false };
+
+    return config;
+  },
 }
 
-export default withSearch(
-  withMarkdoc({ schemaPath: './src/markdoc' })(nextConfig)
-)
+export default withMarkdoc({ schemaPath: './src/markdoc' })(nextConfig)

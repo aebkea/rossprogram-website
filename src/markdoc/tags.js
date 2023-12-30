@@ -4,7 +4,8 @@ import { QuickLink, QuickLinks } from '@/components/QuickLinks'
 import { Sponsor, Sponsors } from '@/components/Sponsors'
 import { PaymentButton, PaymentButtons } from '@/components/PaymentButtons'
 import { Blockquote } from '@/components/Blockquote'
-import { PicturesPage } from '@/components/PicturesPage'
+import { PicturesGrid } from '@/components/PicturesGrid'
+import { Tag } from '@markdoc/markdoc'
 
 const tags = {
   callout: {
@@ -121,10 +122,28 @@ const tags = {
     },
   },
   'pictures-page': {
-    render: PicturesPage,
+    render: PicturesGrid,
     selfClosing: true,
     attributes: {
-      year: { type: String },
+      // year: { type: String },
+    },
+    async transform(node, config) {
+      if (typeof window === 'undefined') {
+        try {
+          const cloudinary = require('@/lib/server/cloudinary')
+
+          const { year } = node.attributes
+          const attributes = node.transformAttributes(config)
+
+          const { images, totalCount, nextCursor } = await cloudinary.search(`folder="${year}" AND resource_type=image`)
+
+          return new Tag(this.render, { ...attributes, images, totalCount, nextCursor }, node.transformChildren(config))
+
+        } catch (e) {
+          console.error(e)
+          return null
+        }
+      }
     },
   },
 }

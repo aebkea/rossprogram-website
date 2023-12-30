@@ -20,19 +20,17 @@ export function mapImageResources(resources) {
     });
 }
 
-export default async function handler(req, res) {
-
-    const params = JSON.parse(req.body);
+export async function search(expression) {
 
     const results = await cloudinary.search
-        .expression(params.expression)
+        .expression(expression)
         .execute()
-    
-    console.log(results)
 
-    res.status(200).json({
+    // console.log(results)
+
+    return {
         images: mapImageResources(results.resources),
         totalCount: results.total_count,
         nextCursor: results?.next_cursor,
-    });
+    };
 }
