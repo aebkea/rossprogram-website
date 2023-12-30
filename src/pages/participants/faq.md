@@ -6,12 +6,6 @@ useTableOfContents: true
 
 ## General Questions
 
-### What is the Ross Mathematics Program?
-
-Ross is a six-week, residential, summer session for high school students who are talented in mathematics, well prepared in standard high school math topics, and eager to explore more advanced ideas. In 2020 and 2021 the Ross Program was entirely online. In 2022, we returned to in-person sessions, with participants living in a dormitory.
-
-Ross participants spend most of each day working on challenging sets of problems dealing with abstract mathematical concepts. By working for several weeks on one subject (number theory), participants delve deeply into the underpinnings of that subject. But more importantly, they learn to communicate mathematical ideas clearly and to write convincing proofs of all of their assertions. One goal of this program is to provide a first step toward independent mathematical research. It is not oriented toward math contests. Direct competition between students is discouraged.
-
 ### Is admission automatic?
 
 The admission process is competitive. In 2023, about 15% of the applicants with complete applications were accepted. Each successful applicant has a strong high school record and exhibits excellent work on the mathematical problems that form part of the application.
@@ -20,62 +14,6 @@ The admission process is competitive. In 2023, about 15% of the applicants with 
 
 The Ross Program is able to provide scholarship support to qualified students who cannot otherwise afford to attend. Requests for support are made after a student has been accepted to the Program.
 Various academic institutions in the applicant’s home city or state might also have available scholarships. In addition, some scholarship support for participation in math programs is provided by [Mu Alpha Theta](https://mualphatheta.org/summer-grants), the national high school mathematical society. Other scholarship opportunities are offered by the [Davidson Institute](https://davidsongifted.org) and the [Jack Kent Cooke Foundation](https://jkcf.org).
-
-## Living Arrangements Questions
-
-### Where do the students live?
-
-There will be two sites for the Ross/USA Program:
-
-- at Otterbein University in Columbus, OH, June 11 through July 21, 2023
-- at Rose-Hulman Institute of Technology in Terre Haute, Indiana, June 18 through July 28, 2023
-
-All participants will live in a dormitory on campus. Typically, students live with three roommates in a small suite of rooms.
-
-### What is the mailing address?
-
-For a student at Ross/OH, the mailing address is:
-
-{% blockquote quoteless="true" %}
-\[Student Name\] – Ross  
-Events & Conferences  
-1 S Grove St.  
-Westerville, OH 43081
-{% /blockquote %}
-
-For a student at Ross/IN, the mailing address is:
-
-{% blockquote quoteless="true" %}
-\[Student Name\]  
-Ross Mathematics Program  
-Rose-Hulman Institute of Technology  
-5500 Wabash Ave.  
-Terre Haute, IN 47803
-{% /blockquote %}
-
-### How are the dorm rooms at Ross/USA furnished?
-
-The dormitories and classroom buildings are air-conditioned. Each participant uses a single bed, a desk, a chair, and some closet space, and is provided two sheets, a pillowcase, and a blanket. Students provide their own towels and washcloths, pillows, clothes hangers, shampoo, soap and other personal items. Since towels and pillows are bulky to carry, staff members will take students to stores where those items can be purchased at fairly low costs.
-
-### Is there a curfew?
-
-All students must remain inside the dormitory after dark and must not leave the campus at any time unless accompanied by a counselor.
-
-### Are the students segregated from college students and from other summer camps?
-
-The Ross Mathematics Program usually fills up several floors of the dormitory. Other summer camps may be held on campus. Their participants arrive and leave throughout the summer and some of them might occupy the same dormitory building.
-
-### What are the security arrangements in the dorm?
-
-The dormitory is locked, accessible only by key card. Each suite has its own lock and key. In spite of these arrangements there is always some potential for theft or other crime, so we advise students not to bring valuable items or large amounts of cash.
-
-### Will the Ross counselors check that students eat good food, do laundry, clean their room, etc.?
-
-Ross counselors and students live in the same dormitory. Counselors certainly provide supervision, but students must be mature enough to choose what and when they eat, do their own laundry, keep themselves and their rooms clean, and get enough sleep. If someone is not mature enough to do these things, or distracts other students from their mathematical work, we arrange for that student to leave the program and return home.
-
-### What do they eat? Where do they eat? How often do they eat? Are there any accomodations for my child's special dietary needs, such as diabetes, peanut allergy, gluten intolderance, vegetarianism, etc? {% shortheading="What do they eat?" %}
-
-Student fees include the cost of three meals per day at the campus cafeteria. Upon request, the cafeteria can provide foods for students who are on restrictive diets. Some foods (e.g. pizza) can be ordered from nearby restaurants and delivered to the dorm.
 
 ## Packing List Questions
 
@@ -139,31 +77,7 @@ The campus does not offer a medical clinic, but University staff members with tr
 
 There are pharmacies a mile or so away from campus. Ross staff members will organize a shopping mall trip for those students who need to purchase items at a pharmacy.
 
-## Recreation Questions
-
-### Are there events planned for nights and weekends? Is social interaction encouraged?
-
-Counselors organize some informal activities like Ultimate Frisbee games on Fridays, and a Talent Show. However, students are expected to spend most of their waking hours working on the mathematical problem sets. Weekends are spent mostly catching up on problem sets that weren’t completed during the week.
-
-### Do you conduct field trips to other locations?
-
-Yes.  We are planning some off-campus trips.  Students 
-might be asked to pay a small fee in order to join the organized trips.
-
-### Are parents allowed or encouraged to make mid-session visits to campus?
-
-We strongly discourage overnight absences for Ross students. Students
-build up momentum working full-time on hard problems. That momentum is
-halted when a student takes a day or two off. Parents are certainly
-welcome to visit for a day and take students out to dinner. But movies
-or similar events tend to distract students from mathematical
-motivations and interests. They can watch movies and TV at home, after
-the Ross Program is over. This policy might seem stringent: The point
-is to get students excited about mathematical ideas and to concentrate
-all of their energy on solving interesting math problems.
-
 ## International Concerns
-
 
 ### Do you accept international students?
 

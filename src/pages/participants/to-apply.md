@@ -5,7 +5,14 @@ description: Quidem magni aut exercitationem maxime rerum eos.
 
 ## Instructions
 
-The application portal is now available. Begin your application by visiting the application portal at [https://apply.rossprogram.org](https://apply.rossprogram.org).
+The application portal is now available. Begin your application by visiting the application portal at [https://apply.rossprogram.org](https://apply.rossprogram.org). The core parts of the application are the following:
+
+- responses to some short essay questions,
+- a teacher recommendation,
+- school transcript, and
+- work on some challenging math problems.
+
+If you have any quetions or otherwise, please feel free to email us at [ross@rossprogram.org](mailto:ross@rossprogram.org). Note that we will not provide hints on how to solve the math problems posted, but we can answer clarifying questions regarding terminology, phrasing, etc.
 
 ## Application Deadline
 
@@ -13,7 +20,7 @@ The deadline for Ross applications is March 31. Applications submitted after tha
 
 ## Costs and Financial Aid
 
-Each Ross student is asked to pay a program fee of $6000. Those funds are used to pay for six weeks of room and board, to hire instructors and counselors, and to cover incidental costs of developing and running math courses.
+Each Ross student is asked to pay a program fee of $7000. Those funds are used to pay for six weeks of room and board, to hire instructors and counselors, and to cover incidental costs of developing and running math courses.
 
 {% callout title="Financial aid" %}
 [Financial aid](students/faq/#are-scholarships-available) is certainly available. Accepted applicants are encouraged to apply for aid if their families have some financial need. We hope to provide enough support to enable every accepted applicant to attend this great Program.
@@ -26,3 +33,5 @@ The Ross Program endeavors to provide enough financial support to enable every a
 ## Committment to Nondiscrimination
 
 The Ross Program does not discriminate on the basis of gender, gender identity, gender expression, sexual orientation, race, creed, color, ethnic origin, disability, or marital status in its admissions, educational programming, financial aid, employment practices, or other activities.
+
+We recognize the existing gender and racial disparities within the mathematics community. In our commitment to fostering a diverse and inclusive environment, we highly encourage applications from individuals of underrepresented backgrounds.
