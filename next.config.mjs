@@ -9,7 +9,13 @@ const nextConfig = {
     scrollRestoration: true,
   },
   images: {
-    domains: ['res.cloudinary.com'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+        pathname: `/${process.env.CLOUDINARY_CLOUD_NAME}/**`
+      }
+    ]
   },
   webpack: (config) => {
     config.resolve.fallback = { fs: false };
