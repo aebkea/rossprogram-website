@@ -125,7 +125,7 @@ const tags = {
     render: PicturesGrid,
     selfClosing: true,
     attributes: {
-      // year: { type: String },
+      year: { type: String },
     },
     async transform(node, config) {
       if (typeof window === 'undefined') {
