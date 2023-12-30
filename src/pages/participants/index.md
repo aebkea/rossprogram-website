@@ -7,7 +7,7 @@ description: Quidem magni aut exercitationem maxime rerum eos.
 
 Ross is a six-week, residential, summer session for high school students who are talented in mathematics, well prepared in standard high school math topics, and eager to explore more advanced ideas. In 2020 and 2021 the Ross Program was entirely online. In 2022, we returned to in-person sessions, with participants living in a dormitory.
 
-Ross participants spend most of each day working on challenging sets of problems dealing with abstract mathematical concepts. By working for several weeks on one subject (number theory), participants delve deeply into the underpinnings of that subject, but more importantly, they learn to communicate mathematical ideas clearly and to write convincing proofs of all their assertions. One goal of this program is to provide a first step toward independent mathematical research. It is not oriented toward math contests, and direct competition between students is discouraged. Learn more about [mathematics at the Ross Program.](/particpants/math-at-ross)
+Ross participants spend most of each day working on challenging sets of problems dealing with abstract mathematical concepts. By working for several weeks on one subject (number theory), participants delve deeply into the underpinnings of that subject, but more importantly, they learn to communicate mathematical ideas clearly and to write convincing proofs of all their assertions. One goal of this program is to provide a first step toward independent mathematical research. It is not oriented toward math contests, and direct competition between students is discouraged. Learn more about [mathematics at the Ross Program.](/participants/math-at-ross)
 
 ## Program Dates
 
