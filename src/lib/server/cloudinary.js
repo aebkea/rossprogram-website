@@ -24,6 +24,8 @@ export async function search(expression) {
 
     const results = await cloudinary.search
         .expression(expression)
+        .sort_by('public_id', 'desc')
+        .max_results(200)
         .execute()
 
     // console.log(results)
