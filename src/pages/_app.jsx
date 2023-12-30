@@ -65,13 +65,15 @@ function commonLayout(page, pageProps) {
     ? collectHeadings(pageProps.markdoc.content)
     : []
 
+  let sectionTitle = pageProps.markdoc?.frontmatter.sectionTitle
+
   return (
     <>
       <Head>
         <title>{pageTitle}</title>
         {description && <meta name="description" content={description} />}
       </Head>
-      <Layout title={title} tableOfContents={tableOfContents}>
+      <Layout title={title} tableOfContents={tableOfContents} sectionTitle={sectionTitle}>
         {page}
       </Layout>
     </>

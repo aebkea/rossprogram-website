@@ -145,12 +145,13 @@ function useTableOfContents(tableOfContents) {
   return currentSection
 }
 
-export function Layout({ children, title, tableOfContents }) {
+export function Layout({ children, title, sectionTitle, tableOfContents }) {
   let router = useRouter()
   let isHomePage = router.pathname === '/'
-  let section = navigation.find((section) =>
+  let section = sectionTitle ?? navigation.find((section) =>
     section.links.find((link) => link.href === router.pathname)
   )
+  console.log(section)
   let currentSection = useTableOfContents(tableOfContents)
 
   function isActive(section) {
@@ -205,7 +206,7 @@ export function Layout({ children, title, tableOfContents }) {
               <header className="mb-9 space-y-1">
                 {section && (
                   <p className="font-display text-sm font-medium text-violet-500">
-                    {section.title}
+                    {section.title ?? section}
                   </p>
                 )}
                 {title && (
