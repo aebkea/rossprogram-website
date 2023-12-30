@@ -7,9 +7,7 @@ Participants in this six-week summer course attend class for ten hours per week 
 
 The first-year course in the Ross Program is organized around a series of problem sets in number theory. These sets invite the participants to contemplate a variety of seemingly simple questions about numbers and their relationships. As the summer progresses, the students are encouraged to investigate these questions in increasing depth, and to return to them periodically as their skill at abstract reasoning and their collection of available tools become more powerful.
 
-This spiraling of concepts is summarized in the Ross Program's motto:
-
-> Think deeply about simple things.
+This spiraling of concepts is summarized in the Ross Program's motto: "Think deeply about simple things."
 
 To realize this idea, we concentrate on one central subject, rather than touching lightly on many disjoint mathematical topics. Ross students spend the entire summer focusing their attention on integers and their properties. Students should expect to get deeply involved in intensive mathematical work. Although formal classes take up only eight hours per week, Ross participants work hard during the many hours of unstructed time. After solving a problem, students are asked to write clear and accurate proofs of all their assertions. This practice with logical thinking and experience in mathematical writing will be of great use in abstract science and mathematics courses taken in college.
 
