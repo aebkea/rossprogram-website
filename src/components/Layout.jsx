@@ -151,7 +151,6 @@ export function Layout({ children, title, sectionTitle, tableOfContents }) {
   let section = sectionTitle ?? navigation.find((section) =>
     section.links.find((link) => link.href === router.pathname)
   )
-  console.log(section)
   let currentSection = useTableOfContents(tableOfContents)
 
   function isActive(section) {
