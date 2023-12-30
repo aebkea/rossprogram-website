@@ -1,9 +1,7 @@
-// import { search, mapImageResources } from "@/lib/cloudinary"
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Image from "next/image";
-// import { CldImage } from 'next-cloudinary';
+
 import { Cloudinary } from "@cloudinary/url-gen";
-import { AdvancedImage } from '@cloudinary/react';
 import { scale } from "@cloudinary/url-gen/actions/resize";
 
 import ImageModal from "@/components/ImageModal";
