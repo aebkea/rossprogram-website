@@ -21,20 +21,19 @@ function ImageItem({ image, openImageModal }) {
     .resize(scale().width(512))
     .quality('auto')
     .format('auto');
-  const url = cldImage.toURL();
+  const url = cldImage.toURL().split("?")[0];
 
   return (
-    <ul key={image.assetId} className="">
-      <div onClick={() => openImageModal(image)}>
-        <div className={clsx("transition-opacity duration-300", isLoaded ? "opacity-100" : "opacity-0")}>
-          <div className="flex flex-col h-fit transition ease-in-out delay-50 hover:scale-105 duration-300 cursor-pointer">
-            <div className="relative grow w-full aspect-[3/2] rounded-md sm:rounded-xl overflow-hidden">
-              <Image src={url} alt="" className="object-cover" fill={true} onLoad={() => setIsLoaded(true)} unoptimized />
-            </div>
+    <div onClick={() => openImageModal(image)}>
+      <div className="flex flex-col h-fit transition ease-in-out delay-50 hover:scale-105 duration-300 cursor-pointer">
+        <div className="relative grow w-full aspect-[3/2] rounded-md sm:rounded-xl overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-tr from-slate-300/20 via-slate-200/20 to-slate-300/20 animate-pulse" />
+          <div className={clsx("transition-opacity duration-300", isLoaded ? "opacity-100" : "opacity-0")}>
+            <Image src={url} alt="" className="object-cover" fill={true} onLoad={() => setIsLoaded(true)} unoptimized />
           </div>
         </div>
       </div>
-    </ul>
+    </div>
   );
 }
 
@@ -55,7 +54,7 @@ export function PicturesGrid({ images }) {
   return (
     <>
       <ImageModal open={imageOpen} setOpen={setImageOpen} image={selectedImage} unoptimized={false} width={imageWidth} height={imageHeight} />
-      <div className="not-prose grid grid-cols-2 sm:grid-cols-3 gap-2 pr-0 lg:pr-4 xl:pr-0">
+      <div className="not-prose grid grid-cols-2 sm:grid-cols-3 gap-4 pr-0 lg:pr-4 xl:pr-0">
         {images && images.map(image => (
           <ImageItem key={image.assetId} image={image} openImageModal={openImageModal} />
         ))}
