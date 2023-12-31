@@ -1,8 +1,9 @@
-import Image from 'next/image'
+// import Image from 'next/image'
+import { CldImage } from '@/components/CldImage'
 
 import { HeroBackground } from '@/components/HeroBackground'
 // import blurIndigoImage from '@/images/blur-indigo.png'
-import hero from '@/images/hero.png'
+// import hero from '@/images/hero.png'
 import heroFull from '@/images/hero_full.jpg'
 
 export function Hero({ openModal }) {
@@ -65,8 +66,8 @@ export function Hero({ openModal }) {
               <div className="relative rounded-2xl bg-[#0A101F]/80 ring-1 ring-white/10 backdrop-blur transition ease-in-out delay-50 hover:scale-105 duration-300 cursor-pointer" onClick={() => openModal(heroFull)}>
                 <div className="absolute -top-px left-20 right-11 h-px bg-gradient-to-r from-sky-300/0 via-violet-300/70 to-sky-300/0" />
                 <div className="absolute -bottom-px left-11 right-20 h-px bg-gradient-to-r from-purple-400/0 via-purple-400 to-purple-400/0" />
-                <div className="overflow-hidden rounded-2xl">
-                  <Image className="w-full h-full" width="750" height="290" quality="25" src={hero} alt="Ross/Ohio 2023 group photo" priority={true} />
+                <div className="relative inset-0 overflow-hidden rounded-2xl aspect-[75/29]">
+                  <CldImage className="object-cover" width="1024" format="auto" quality="auto" fill={true} src="website-assets/hero" alt="Ross/Ohio 2023 group photo" />
                 </div>
               </div>
             </div>

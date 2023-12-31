@@ -4,7 +4,7 @@ import { Cloudinary } from "@cloudinary/url-gen";
 import { scale } from "@cloudinary/url-gen/actions/resize";
 
 // eat unoptimized prop to prevent overriding
-export function CldImage({ src, width, quality, format, transformation, unoptimized, ...props }) {
+export function CldImage({ src, width, quality, format, transformation, fill, unoptimized, ...props }) {
 
   const cld = new Cloudinary({
     cloud: {
@@ -12,7 +12,7 @@ export function CldImage({ src, width, quality, format, transformation, unoptimi
     }
   });
 
-  const cldImage = cld.image(src.publicId)
+  const cldImage = cld.image(src)
   if (width) cldImage.resize(scale().width(width));
   if (quality) cldImage.quality(quality);
   if (format) cldImage.format(format);
@@ -21,6 +21,6 @@ export function CldImage({ src, width, quality, format, transformation, unoptimi
   const url = cldImage.toURL().split("?")[0];
 
   return (
-    <Image src={url} unoptimized={true} {...props} />
+    <Image src={url} unoptimized={true} width={!fill ? width : undefined} fill={fill} {...props} />
   );
 }

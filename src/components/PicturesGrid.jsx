@@ -14,7 +14,7 @@ function ImageItem({ image, openImageModal }) {
         <div className="relative grow w-full aspect-[3/2] rounded-md sm:rounded-xl overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-tr from-slate-300/20 via-slate-200/20 to-slate-300/20 animate-pulse" />
           <div className={clsx("absolute inset-0 transition-opacity duration-300", isLoaded ? "opacity-100" : "opacity-0")}>
-            <CldImage src={image} width="512" quality="auto" format="auto" alt="" className="object-cover" fill={true} onLoad={() => setIsLoaded(true)} />
+            <CldImage src={image.publicId} width="512" quality="auto" format="auto" alt="" className="object-cover" fill={true} onLoad={() => setIsLoaded(true)} />
           </div>
         </div>
       </div>
