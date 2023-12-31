@@ -24,6 +24,7 @@ export async function search(expression) {
 
     const results = await cloudinary.search
         .expression(expression)
+        .with_field("image_metadata")
         .sort_by('public_id', 'desc')
         .max_results(200)
         .execute()

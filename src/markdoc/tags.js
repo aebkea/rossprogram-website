@@ -125,7 +125,7 @@ const tags = {
     render: PicturesGrid,
     selfClosing: true,
     attributes: {
-      year: { type: String },
+      expression: { type: String },
       count: { type: String },
     },
     async transform(node, config) {
@@ -133,10 +133,10 @@ const tags = {
         try {
           const cloudinary = require('@/lib/server/cloudinary')
 
-          const { year, count } = node.attributes
+          const { expression, count } = node.attributes
           const attributes = node.transformAttributes(config)
 
-          const { images, totalCount: queryCount } = await cloudinary.search(`folder="${year}" AND resource_type=image`)
+          const { images, totalCount: queryCount } = await cloudinary.search(expression && `(${expression}) AND ` + "resource_type=image")
 
           return new Tag(this.render, { ...attributes, images, count, queryCount }, node.transformChildren(config))
 
