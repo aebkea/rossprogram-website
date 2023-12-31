@@ -1,6 +1,6 @@
 import { useState, useEffect, Fragment } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
-import { useWindowSize } from './ImageCarousel';
+import { useWindowSize } from '@/lib/utils';
 import Image from 'next/image';
 
 export default function ImageModal({ open, setOpen, image, unoptimized, width, height, placeholder }) {
