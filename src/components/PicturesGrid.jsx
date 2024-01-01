@@ -25,13 +25,9 @@ function ImageItem({ image, openImageModal }) {
 export function PicturesGrid({ images, count }) {
   const [imageOpen, setImageOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
-  const [imageWidth, setImageWidth] = useState(null);
-  const [imageHeight, setImageHeight] = useState(null);
 
   function openImageModal(image) {
-    setImageWidth(image.width);
-    setImageHeight(image.height);
-    setSelectedImage(image.url);
+    setSelectedImage(image);
     setImageOpen(true);
   }
 
@@ -39,7 +35,7 @@ export function PicturesGrid({ images, count }) {
 
   return (
     <>
-      <ImageModal open={imageOpen} setOpen={setImageOpen} image={selectedImage} unoptimized={false} width={imageWidth} height={imageHeight} />
+      <ImageModal open={imageOpen} setOpen={setImageOpen} image={selectedImage?.url} unoptimized={false} width={selectedImage?.width} height={selectedImage?.height} />
       <div className="not-prose grid grid-cols-2 sm:grid-cols-3 gap-4 pr-0 lg:pr-4 xl:pr-0">
         {images && reducedImages.map(image => (
           <ImageItem key={image.assetId} image={image} openImageModal={openImageModal} />
