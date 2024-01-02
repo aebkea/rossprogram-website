@@ -43,9 +43,9 @@ export function PicturesPreview({ images, href }) {
       <Link href={href}>
         <div className="group flex justify-start w-full h-[calc(14rem*2/3)] rounded-[2rem] pr-0 lg:pr-4 xl:pr-0 cursor-pointer">
           {images && reducedImages.map(image => (
-            <div className={clsx("relative w-16 transition-all last-of-type:group-hover:w-56 duration-300 last-of-type:w-56 flex-shrink last-of-type:flex-none", smallScreen ? "w-[calc((100%-14rem)/3)]" : "group-hover:w-[calc((100%-14rem)/5)]")}>
+            <div key={image.assetId} className={clsx("relative w-16 transition-all last-of-type:group-hover:w-56 duration-300 last-of-type:w-56 flex-shrink last-of-type:flex-none", smallScreen ? "w-[calc((100%-14rem)/3)]" : "group-hover:w-[calc((100%-14rem)/5)]")}>
               <div className="absolute left-0 w-56">
-                <ImageItem key={image.assetId} image={image} />
+                <ImageItem image={image} />
               </div>
             </div>
           ))}
