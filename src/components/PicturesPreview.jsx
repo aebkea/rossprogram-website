@@ -12,7 +12,7 @@ function ImageItem({ image }) {
 
   return (
     <div className="flex flex-col h-fit">
-      <div className="relative grow w-full aspect-[3/2] rounded-[2rem] overflow-hidden ring-8 ring-white transition-all group-hover:ring-violet-200 duration-300">
+      <div className="relative grow w-full aspect-[3/2] rounded-[2rem] overflow-hidden ring-8 ring-white dark:ring-slate-900 transition-all group-hover:ring-violet-200 dark:group-hover:ring-slate-900 duration-300">
         <div className="absolute inset-0 bg-gradient-to-tr from-slate-300/20 via-slate-200/20 to-slate-300/20 animate-pulse" />
         <div className={clsx("absolute inset-0 transition-opacity duration-300", isLoaded ? "opacity-100" : "opacity-0")}>
           <CldImage src={image.publicId} transformation="c_fill,g_auto,w_512,ar_3:2" quality="auto" format="auto" alt="" className="object-cover" fill={true} onLoad={() => setIsLoaded(true)} />
