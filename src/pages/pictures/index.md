@@ -10,3 +10,7 @@ Here is a collection of pictures from years-past at the Ross Program. Please enj
 ## [2023](/pictures/2023)
 
 {% pictures-page expression="folder=2023" count="12" /%}
+
+## Test
+
+{% pictures-preview expression="folder=2023" count="6" /%}

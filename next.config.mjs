@@ -24,4 +24,4 @@ const nextConfig = {
   },
 }
 
-export default withMarkdoc({ schemaPath: './src/markdoc' })(nextConfig)
+export default withMarkdoc({ schemaPath: './src/markdoc', mode: 'static' })(nextConfig)

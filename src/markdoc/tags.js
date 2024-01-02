@@ -5,6 +5,7 @@ import { Sponsor, Sponsors } from '@/components/Sponsors'
 import { PaymentButton, PaymentButtons } from '@/components/PaymentButtons'
 import { Blockquote } from '@/components/Blockquote'
 import { PicturesGrid } from '@/components/PicturesGrid'
+import { PicturesPreview } from '@/components/PicturesPreview'
 import { Tag } from '@markdoc/markdoc'
 
 const tags = {
@@ -123,6 +124,32 @@ const tags = {
   },
   'pictures-page': {
     render: PicturesGrid,
+    selfClosing: true,
+    attributes: {
+      expression: { type: String },
+      count: { type: String },
+    },
+    async transform(node, config) {
+      if (typeof window === 'undefined') {
+        try {
+          const cloudinary = require('@/lib/server/cloudinary')
+
+          const { expression, count } = node.attributes
+          const attributes = node.transformAttributes(config)
+
+          const { images, totalCount: queryCount } = await cloudinary.search(expression && `(${expression}) AND ` + "resource_type=image")
+
+          return new Tag(this.render, { ...attributes, images, count, queryCount }, node.transformChildren(config))
+
+        } catch (e) {
+          console.error(e)
+          return null
+        }
+      }
+    },
+  },
+  'pictures-preview': {
+    render: PicturesPreview,
     selfClosing: true,
     attributes: {
       expression: { type: String },
