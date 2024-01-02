@@ -41,7 +41,7 @@ export function PicturesPreview({ images, href }) {
   return (
     <div className="not-prose my-4">
       <Link href={href}>
-        <div className="group flex justify-start w-full h-[calc(14rem*2/3)] rounded-md sm:rounded-xl pr-0 lg:pr-4 xl:pr-0 cursor-pointer overflow-hidden">
+        <div className="group flex justify-start w-full h-[calc(14rem*2/3)] rounded-md sm:rounded-xl pr-0 lg:pr-4 xl:pr-0 cursor-pointer overflow-hidden transition-all duration-300 hover:scale-105 origin-top">
           {images && reducedImages.map(image => (
             <div key={image.assetId} className={clsx("group/rounding relative w-16 transition-all last-of-type:group-hover:w-56 duration-300 last-of-type:w-56 flex-shrink last-of-type:flex-none", smallScreen ? "w-[calc((100%-14rem)/3)]" : "group-hover:w-[calc((100%-14rem)/5)]")}>
               <div className="absolute left-0 w-56">
