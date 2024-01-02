@@ -153,19 +153,18 @@ const tags = {
     selfClosing: true,
     attributes: {
       expression: { type: String },
-      count: { type: String },
     },
     async transform(node, config) {
       if (typeof window === 'undefined') {
         try {
           const cloudinary = require('@/lib/server/cloudinary')
 
-          const { expression, count } = node.attributes
+          const { expression } = node.attributes
           const attributes = node.transformAttributes(config)
 
           const { images, totalCount: queryCount } = await cloudinary.search(expression && `(${expression}) AND ` + "resource_type=image")
 
-          return new Tag(this.render, { ...attributes, images, count, queryCount }, node.transformChildren(config))
+          return new Tag(this.render, { ...attributes, images, queryCount }, node.transformChildren(config))
 
         } catch (e) {
           console.error(e)

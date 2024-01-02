@@ -13,4 +13,4 @@ Here is a collection of pictures from years-past at the Ross Program. Please enj
 
 ## Test
 
-{% pictures-preview expression="folder=2023" count="6" /%}
+{% pictures-preview expression="folder=2023" /%}
