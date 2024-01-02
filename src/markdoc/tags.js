@@ -7,6 +7,7 @@ import { Blockquote } from '@/components/Blockquote'
 import { PicturesGrid } from '@/components/PicturesGrid'
 import { PicturesPreview } from '@/components/PicturesPreview'
 import { Tag } from '@markdoc/markdoc'
+import { start } from '@cloudinary/url-gen/qualifiers/textAlignment'
 
 const tags = {
   callout: {
@@ -153,6 +154,7 @@ const tags = {
     selfClosing: true,
     attributes: {
       expression: { type: String },
+      startIndex: { type: Number, default: 0 },
       href: { type: String },
     },
     async transform(node, config) {
@@ -160,12 +162,14 @@ const tags = {
         try {
           const cloudinary = require('@/lib/server/cloudinary')
 
-          const { expression, href } = node.attributes
+          const { expression, startIndex, href } = node.attributes
           const attributes = node.transformAttributes(config)
 
           const { images, totalCount: queryCount } = await cloudinary.search(expression && `(${expression}) AND ` + "resource_type=image")
 
-          return new Tag(this.render, { ...attributes, images, queryCount, href }, node.transformChildren(config))
+          const reducedImages = images.slice(startIndex, startIndex + 6)
+
+          return new Tag(this.render, { ...attributes, images: reducedImages, queryCount, startIndex, href }, node.transformChildren(config))
 
         } catch (e) {
           console.error(e)

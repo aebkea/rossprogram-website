@@ -36,7 +36,7 @@ export function PicturesGrid({ images, count }) {
   return (
     <>
       <ImageModal open={imageOpen} setOpen={setImageOpen} image={selectedImage?.url} unoptimized={false} width={selectedImage?.width} height={selectedImage?.height} />
-      <div className="not-prose grid grid-cols-2 sm:grid-cols-3 gap-4 pr-0 lg:pr-4 xl:pr-0">
+      <div className="not-prose grid grid-cols-2 sm:grid-cols-3 gap-4 pr-0 lg:pr-4 xl:pr-0 my-4">
         {images && reducedImages.map(image => (
           <ImageItem key={image.assetId} image={image} openImageModal={openImageModal} />
         ))}
