@@ -4,6 +4,8 @@ description: random stuff
 sectionTitle: Participants
 ---
 
+The topics mentioned below appear throughout the problem sets, with different topic-threads often appearing on the same set.
+
 ### Euclid's algorithm
 
 Greatest common divisor. Diophantine equation {% math %} ax + by = c {% /math %}. Proof of unique factorization in {% math %} \mathbb{Z} {% /math %}.
