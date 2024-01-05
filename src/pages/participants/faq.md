@@ -10,11 +10,6 @@ useTableOfContents: true
 
 The admission process is competitive. In 2023, about 15% of the applicants with complete applications were accepted. Each successful applicant has a strong high school record and exhibits excellent work on the mathematical problems that form part of the application.
 
-### Are scholarships available?
-
-The Ross Program is able to provide scholarship support to qualified students who cannot otherwise afford to attend. Requests for support are made after a student has been accepted to the Program.
-Various academic institutions in the applicant’s home city or state might also have available scholarships. In addition, some scholarship support for participation in math programs is provided by [Mu Alpha Theta](https://mualphatheta.org/summer-grants), the national high school mathematical society. Other scholarship opportunities are offered by the [Davidson Institute](https://davidsongifted.org) and the [Jack Kent Cooke Foundation](https://jkcf.org).
-
 ## Packing List Questions
 
 ### What do students need to bring?

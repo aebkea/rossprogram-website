@@ -30,6 +30,12 @@ Each Ross student is asked to pay a program fee of $7000. Those funds are used t
 
 The Ross Program endeavors to provide enough financial support to enable every accepted student to attend. If you have been accepted to the Ross Program and need financial assistance in order to join us, please ask your parent or guardian to contact us at [ross@rossprogram.org](mailto:ross@rossprogram.org). We will reply with details on how to apply for scholarship support.
 
+Various academic institutions in the applicant’s home city or state might also have available scholarships. In addition, some scholarship support for participation in math programs can be provided by:
+
+- [Mu Alpha Theta](https://mualphatheta.org/summer-grants),
+- the [Davidson Institute](https://davidsongifted.org), and
+- the [Jack Kent Cooke Foundation](https://jkcf.org).
+
 ## Committment to Nondiscrimination
 
 The Ross Program does not discriminate on the basis of gender, gender identity, gender expression, sexual orientation, race, creed, color, ethnic origin, disability, or marital status in its admissions, educational programming, financial aid, employment practices, or other activities.
