@@ -8,6 +8,8 @@ The Ross Program is a 6-week intensive summer experience designed to encourage m
 
 At the Ross Program, we provide students with a focused and supportive environment for mathematical exploration. Mathematical thinking is valuable not only for careers in mathematics research, science, and finance, but also for critical thinking and informed citizenship. At Ross, we hope to help nurture mathematical curiosity and logical thinking in our students to produce future leaders in the world.
 
+Please feel free to email us at [ross@rossprogram.org](mailto:ross@rossprogram.org).
+
 {% quick-links %}
 
 {% quick-link title="Participants" href="/participants" description="Learn more about life and mathematics at Ross, and how to apply to participate!" /%}
@@ -35,7 +37,3 @@ The Ross Program is supported in several ways. Partners in this mathematical ent
 ## Related Programs
 
 Some other excellent summer mathematics programs are listed on the AMS [mathcamps](https://ams.org/opportunities) webpage. The two programs most closely related to Ross are [PROMYS](https://promys.org) at Boston University and the [Honors Summer Math Camp](https://txstate.edu/mathworks/camps/Summer-Math-Camps-Information/hsmc.html) at Texas State University.
-
-## Questions?
-
-Please see our [Frequently Asked Questions](students/faq) page for more information. You are also welcome to email us at [ross@rossprogram.org](mailto:ross@rossprogram.org).
