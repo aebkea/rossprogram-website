@@ -35,7 +35,7 @@ Credit card contributions can be made online through the following buttons.
 
 {% payment-button title="$1,000" description="" priceId="" /%}
 
-{% payment-button title="$6,000" description="This funds a participant's whole tuition!" priceId="" colStart="2" colEnd="4" /%}
+{% payment-button title="$7,000" description="This funds a participant's whole tuition!" priceId="" colStart="2" colEnd="4" /%}
 
 {% payment-button title="Other amount" description="" priceId="" colStart="1" colEnd="4" /%}
 
@@ -58,7 +58,7 @@ Please contact us at [ross@rossprogram.org](mailto:ross@rossprogram.org) to disc
 ### Private and corporate donors
 
 Do you know of a foundation or corporation that might support the educational mission 
-of the Ross Program? If so, please [send us](mailto:ross@rossprogram.org) your suggestions.
+of the Ross Program? If so, please contact us at [ross@rossprogram.org](mailto:ross@rossprogram.org) with suggestions.
 
 ---
 
