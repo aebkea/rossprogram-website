@@ -26,20 +26,20 @@ const icons = {
   warning: (props) => <Icon icon="warning" color="amber" {...props} />,
 }
 
-export function Callout({ type = 'note', title, children }) {
+export function Callout({ type = 'note', useIcon = true, title, children }) {
   let IconComponent = icons[type]
 
   return (
     <div className={clsx('relative my-8 p-4 flex', styles[type].container)}>
-      <IconComponent className="h-8 w-8 flex-none" />
+      { useIcon && <IconComponent className="h-8 w-8 flex-none" />}
       <span className={clsx('absolute inset-y-0 left-0 w-1', styles[type].line)} />
       <span className={clsx('absolute inset-y-0 right-0 w-1', styles[type].line)} />
-      <div className="ml-4 flex-auto">
+      <div className={clsx("flex-auto", useIcon ? "ml-4" : "mx-2")}>
         <p className={clsx('m-0 font-display text-xl', styles[type].title)}>
           {title}
         </p>
         {children && (
-          <div className={clsx('prose mt-2.5', styles[type].body)}>
+          <div className={clsx('prose', title && 'mt-2.5', styles[type].body)}>
             {children}
           </div>
         )}

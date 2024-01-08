@@ -36,7 +36,7 @@ We concentrate on one central subject (number theory), rather than touching ligh
 
 ### Community
 
-The Ross counselors strive to build a "community of scholars" in the dormitory, encouraging everyone to work on these challenging mathematical ideas, to share their ideas and insights, and to experience the joy of solving a difficult problem.
+The Ross program is propelled by the strong mathematical community it fosters among participants, which brings together individuals of diverse mathematical backgrounds to collaborate and share in the joy of mathematics. Ross participants spend much of their time working on problem sets together, helping each other learn about mathematics. The Ross counselors strive to build a "community of scholars" in the dormitory, encouraging everyone to work on these challenging mathematical ideas, to share their ideas and insights, and to experience the joy of solving a difficult problem.
 
 ---
 
