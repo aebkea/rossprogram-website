@@ -1,6 +1,6 @@
 ---
 title: Ross Anecdotes
-description: random stuff
+description: Past stories from the Ross Mathematics Program
 ---
 
 {% callout type="warning" title="Under Development" %}

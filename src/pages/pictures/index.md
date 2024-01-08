@@ -1,6 +1,6 @@
 ---
 title: Pictures
-description: random stuff
+description: A collection of pictures from the Ross Mathematics Program
 ---
 
 Here is a collection of pictures from years-past at the Ross Program. Please enjoy! {% .lead %}

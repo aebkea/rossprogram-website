@@ -1,6 +1,6 @@
 ---
 title: Frequently Asked Questions
-description: Quidem magni aut exercitationem maxime rerum eos.
+description: Miscellaneous questions answered for participants of the Ross Mathematics Program and their parents
 useTableOfContents: true
 ---
 

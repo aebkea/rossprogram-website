@@ -14,7 +14,7 @@ Please feel free to email us at [ross@rossprogram.org](mailto:ross@rossprogram.o
 
 {% quick-link title="Participants" href="/participants" description="Learn more about life and mathematics at Ross, and how to apply to participate!" /%}
 
-{% quick-link title="Counselors" href="/counselors" description="Learn more about teaching at Ross, and how to apply to be a Ross counselor." /%}
+{% quick-link title="Staff" href="/staff" description="Learn more about teaching at Ross, and how to apply to be a Ross counselor." /%}
 
 {% quick-link title="Mission Statement" href="/mission-statement" description="Learn more about the core values and aims of the Ross program." /%}
 

@@ -1,6 +1,6 @@
 ---
 title: Participants
-description: Overview for participants at the Ross Mathematics Program.
+description: Overview for participants at the Ross Mathematics Program
 ---
 
 ## What is the Ross Mathematics Program?
@@ -28,9 +28,9 @@ All participants typically live with a roommate in a campus dormitory. Learn mor
 
 Pre-college students who are passionate about mathematics are invited to apply. First-year students range in age from 15 to 18 years old, but in rare cases, younger or older students are accepted. Admission decisions are based on several criteria, including: school transcripts, teacher recommendations, essays concerning the applicant's interests and goals, and the applicant's work on some challenging math problems.
 
-The fee for attending the Ross Program is $7000, though we are able to provide financial aid for students who need financial assistance to attend the program. The student fee covers tuition, housing, and meals at the Ross Program. Learn more about [applying to the Ross Program and financial aid.](participants/to-apply)
+The fee for attending the Ross Program is $7000, though we are able to provide financial aid for students who need financial assistance to attend the program. The student fee covers tuition, housing, and meals at the Ross Program. Learn more about [applying to the Ross Program and financial aid.](participants/application)
 
-Undergraduate math majors and math graduate students are invited to [apply to be a Ross Counselor.](counselors/to-apply)
+Undergraduate math majors and math graduate students are invited to [apply to be a Ross counselor.](staff/application)
 
 ## Nondiscrimination Policy
 

@@ -1,6 +1,6 @@
 ---
 title: Mission Statement
-description: The mission statement of the Ross Mathematics Program.
+description: The mission statement of the Ross Mathematics Program
 ---
 
 It is our belief that mathematics is a genuine and rich human experience. At Ross, we are dedicated to creating an environment that allows students to explore their relationships with mathematics. We are dedicated to creating an experience that allows students to dive into mathematics deeply, to contemplate and experience mathematics for themselves, and to share in this exploration and joy with others.

@@ -1,6 +1,6 @@
 ---
 title: Administrators
-description: random stuff
+description: An overview of the responsibilities and expectations for administrative staff at the Ross Mathematics Program
 ---
 
 The role of the administrators is to handle the administrative tasks and logistics related to running the camp, while the role of the counselor is focused on teaching mathematics, as well as helping students navigate the social and emotional aspects of living in a mathematical community. Note that you may apply for both positions, but the applications are separate.

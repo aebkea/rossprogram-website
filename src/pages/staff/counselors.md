@@ -1,6 +1,6 @@
 ---
-title: Counselor Responsibilities
-description: random stuff
+title: Counselors
+description: An overview of the responsibilities and expectations for counselors at the Ross Mathematics Program
 ---
 
 Each counselor will be assigned a *family* of about 4-6 students. Counselors carry out several duties, which include

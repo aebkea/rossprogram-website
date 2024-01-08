@@ -35,17 +35,17 @@ export const navigation = [
       { title: 'Math at Ross', href: '/participants/math-at-ross' },
       { title: 'Life at Ross', href: '/participants/life-at-ross' },
       { title: 'FAQ', href: '/participants/faq' },
-      { title: 'Application and Financial Aid', href: '/participants/to-apply' },
+      { title: 'Application & Financial Aid', href: '/participants/application' },
     ],
   },
   {
-    title: 'Counselors',
-    href: '/counselors',
+    title: 'Staff',
+    href: '/staff',
     colorLink: true,
     links: [
-      { title: 'Responsibilities', href: '/counselors/responsibilities' },
-      { title: 'Administrators', href: '/counselors/administrators' },
-      { title: 'To Apply', href: '/counselors/to-apply' },
+      { title: 'Couselors', href: '/staff/counselors' },
+      { title: 'Administrators', href: '/staff/administrators' },
+      { title: 'Application', href: '/staff/application' },
     ],
   },
   {

@@ -1,6 +1,6 @@
 ---
 title: Contribute
-description: Lorem ipsum.
+description: Ways to give support to the Ross Mathematics Program
 ---
 
 Running the Ross Mathematics Program is expensive. The Ross Program is a nonprofit organization; most Ross funding currently arises from student fees, enhanced by gifts from generous donors and by income from the Program's Endowment Funds. Contributions to the Ross Program help us provide financial aid to participants, as well as to fund pay for counselors. By contributing to the Ross Program, you will help us make the Ross Program more accessible to participants, as well as for us to provide better quality instruction for students. 

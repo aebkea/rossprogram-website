@@ -1,7 +1,7 @@
 ---
 title: Mathematical Topics
-description: random stuff
-sectionTitle: Participants
+description: A list of some mathematical topics covered throughout the course of the Ross Mathematics Program
+sectionTitle: Participants / Math at Ross
 ---
 
 The topics mentioned below appear throughout the problem sets, with different topic-threads often appearing on the same set.

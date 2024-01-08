@@ -1,6 +1,6 @@
 ---
 title: Math at Ross
-description: Quidem magni aut exercitationem maxime rerum eos.
+description: An explanation of the philosophy and motivation which forms the basis for the Ross Mathematics Program
 ---
 
 Participants in this six-week summer course attend class for a rough minimum of three hours per day, some of which are spent in small "family groups" led by a counselor. Apart from classes, students structure their own time, with the understanding that they will spend many hours concentrating on the challenging mathematical ideas presented in class and on the problem sets.

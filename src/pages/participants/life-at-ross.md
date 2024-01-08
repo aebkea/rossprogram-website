@@ -1,6 +1,6 @@
 ---
 title: Life at Ross
-description: random stuff
+description: A summary of the living arrangements and daily life at the Ross Mathematics Program
 ---
 
 ## A Day at the Ross Program

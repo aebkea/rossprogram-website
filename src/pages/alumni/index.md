@@ -1,6 +1,6 @@
 ---
 title: Alumni
-description: random stuff
+description: An overview of information which may be of interest to Ross Mathematics Program alumni
 ---
 
 {% callout type="warning" title="Under Development" %}

@@ -1,6 +1,6 @@
 ---
-title: Participant Application
-description: Quidem magni aut exercitationem maxime rerum eos.
+title: Application & Financial Aid
+description: Information for interested participants about how to apply and financial aid for the Ross Mathematics Program
 ---
 
 ## Instructions

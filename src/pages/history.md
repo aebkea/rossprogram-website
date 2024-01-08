@@ -1,6 +1,6 @@
 ---
 title: History
-description: random stuff
+description: A detailed history of the Ross Mathematics Program
 useTableOfContents: true
 ---
 
