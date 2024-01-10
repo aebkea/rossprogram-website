@@ -23,7 +23,7 @@ The deadline for Ross applications is March 31. Applications submitted after tha
 Each Ross student is asked to pay a program fee of $7000. Those funds are used to pay for six weeks of room and board, to hire instructors and counselors, and to cover incidental costs of developing and running math courses.
 
 {% callout useIcon=false %}
-[Financial aid](students/faq/#are-scholarships-available) is certainly available. Accepted applicants are encouraged to apply for aid if their families have some financial need. We hope to provide enough support to enable every accepted applicant to attend this great Program.
+[Financial aid](/participants/faq/#are-scholarships-available) is certainly available. Accepted applicants are encouraged to apply for aid if their families have some financial need. We hope to provide enough support to enable every accepted applicant to attend this great Program.
 {% /callout %}
 
 The Ross Program endeavors to provide enough financial support to enable every accepted student to attend. If you have been accepted to the Ross Program and need financial assistance in order to join us, please ask your parent or guardian to contact us at [ross@rossprogram.org](mailto:ross@rossprogram.org). We will reply with details on how to apply for scholarship support.
