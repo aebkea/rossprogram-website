@@ -22,6 +22,17 @@ const nextConfig = {
 
     return config;
   },
+  async redirects() {
+    return [
+      {
+        source: '/students/application-problems.pdf',
+        destination: 'https://github.com/rossprogram/rossprogram.github.io/blob/master/students/application-problems.pdf',
+        permanent: false,
+        basePath: false
+      },
+    ]
+  },
+
 }
 
 export default withMarkdoc({ schemaPath: './src/markdoc', mode: 'static' })(nextConfig)
