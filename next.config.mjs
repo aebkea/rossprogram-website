@@ -26,7 +26,7 @@ const nextConfig = {
     return [
       {
         source: '/students/application-problems.pdf',
-        destination: 'https://github.com/rossprogram/rossprogram.github.io/blob/master/students/application-problems.pdf',
+        destination: 'https://raw.githubusercontent.com/rossprogram/rossprogram.github.io/master/students/application-problems.pdf',
         permanent: false,
         basePath: false
       },
