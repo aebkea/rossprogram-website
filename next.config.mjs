@@ -25,11 +25,23 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: '/students/application-problems.pdf',
+        source: '/participants/application-problems.pdf',
         destination: 'https://raw.githubusercontent.com/rossprogram/rossprogram.github.io/master/students/application-problems.pdf',
         permanent: false,
         basePath: false
       },
+      {
+        source: '/students/to-apply',
+        destination: '/participants/application',
+        permanent: false,
+        basePath: false,
+      },
+      {
+        source: '/students/:slug*',
+        destination: '/participants/:slug*',
+        permanent: false,
+        basePath: false,
+      }
     ]
   },
 
