@@ -21,7 +21,7 @@ Ross Mathematics Foundation
 Columbus, OH 43212
 {% /blockquote %}
 
-### Online
+<!-- ### Online
 
 Credit card contributions can be made online through the following buttons.
 
@@ -39,7 +39,7 @@ Credit card contributions can be made online through the following buttons.
 
 {% payment-button title="Other amount" description="" priceId="" colStart="1" colEnd="4" /%}
 
-{% /payment-buttons %}
+{% /payment-buttons %} -->
 
 ### Corporate matching gifts
 
