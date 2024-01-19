@@ -22,6 +22,13 @@ Please feel free to email us at [ross@rossprogram.org](mailto:ross@rossprogram.o
 
 {% /quick-links %}
 
+## Program Dates
+
+There will be two sites for the Ross/USA program:
+
+- at Otterbein University in Columbus, OH, June 9 through July 19, 2024, and
+- at Rose-Hulman Institute of Technology in Terre Haute, Indiana, June 16 through July 26, 2024.
+
 ## Ross Program Support
 
 The Ross Program is supported in several ways. Partners in this mathematical enterprise include:
