@@ -16,7 +16,7 @@ If you have any quetions or otherwise, please feel free to email us at [ross@ros
 
 ## Application Deadline
 
-The deadline for Ross applications is March 31. Applications submitted after that date might not receive full consideration. The Ross Admissions Committe will start reading applications on April 1. Acceptance decisions will be emailed later that month.
+The deadline for Ross applications is March 15. Applications submitted after that date might not receive full consideration. The Ross Admissions Committe will start reading applications on April 1. Acceptance decisions will be emailed later that month.
 
 ## Costs and Financial Aid
 
