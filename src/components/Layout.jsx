@@ -43,7 +43,7 @@ export const navigation = [
     href: '/staff',
     colorLink: true,
     links: [
-      { title: 'Couselors', href: '/staff/counselors' },
+      { title: 'Counselors', href: '/staff/counselors' },
       { title: 'Administrators', href: '/staff/administrators' },
       { title: 'Application', href: '/staff/application' },
     ],
