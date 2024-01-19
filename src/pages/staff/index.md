@@ -11,7 +11,7 @@ The Ross Program is a rich experience for counselors as well. Counselors are abl
 
 The Ross Program will hire several counselors to work at the in-person program planned for 2023. Each counselor is expected to be available during the entire six weeks of the program.
 
-Application materials for the 2023 session are posted in January. Check back here for updates.
+Application materials for the 2024 session are posted in January. Check back here for updates.
 
 ## Administrators
 
