@@ -15,8 +15,8 @@ In 2020 and 2021 the Ross Program was entirely online. In 2022, we returned to i
 
 There will be two sites for the Ross/USA program:
 
-- at Otterbein University in Columbus, OH, June 11 through July 21, 2023, and
-- at Rose-Hulman Institute of Technology in Terre Haute, Indiana, June 18 through July 28, 2023.
+- at Otterbein University in Columbus, OH, June 9 through July 19, 2024, and
+- at Rose-Hulman Institute of Technology in Terre Haute, Indiana, June 16 through July 26, 2024.
 
 {% callout type="warning" title="Late arrival" %}
 The Ross Program cannot accommodate students who must arrive more than two days after the start of classes.
