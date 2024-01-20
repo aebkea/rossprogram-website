@@ -233,7 +233,9 @@ export function Layout({ children, title, sectionTitle, tableOfContents }) {
         closeButton: ThemedCloseButton
       })
     }
-    notifyApplication()
+    if (router.pathname !== '/participants/application') {
+      notifyApplication()
+    }
   }, [])
 
   return (
