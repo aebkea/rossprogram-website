@@ -15,4 +15,4 @@ This structure helps guide participants to observe patterns, make conjectures, e
 
 Participants submit their work on the problem sets to their counselor, who will provide constructive feedback and assign revisions if necessary. We value revisions to encourage participants to think more deeply about their work and mathematics, and ensure a solid understanding of the material. There is no numerical grading. Participants proceed at various paces through the problem sets. In fact, we encourage participants to "think deeply about simple things" and take the time to digest each problem set, instead of just rushing through for the sake of completion.
 
-To provide an idea of the level of mathematics involved, [here is an example an example problem set](https://bpb-us-w2.wpmucdn.com/u.osu.edu/dist/e/5164/files/2014/08/set02.web-19zutzo.pdf).
+To provide an idea of the level of mathematics involved, [here is an example problem set](https://bpb-us-w2.wpmucdn.com/u.osu.edu/dist/e/5164/files/2014/08/set02.web-19zutzo.pdf).
