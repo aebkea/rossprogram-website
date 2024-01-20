@@ -210,7 +210,7 @@ export function Layout({ children, title, sectionTitle, tableOfContents }) {
     }
     function ToastBody({}) {
       return (
-        <p className="font-sans text-sm">The application for Ross 2023 is now open! <Link className="font-medium dark:text-violet-400 no-underline shadow-[inset_0_-3px_0_0_var(--tw-prose-background,#fff),inset_0_calc(-1*(var(--tw-prose-underline-size,4px)+2px))_0_0_var(--tw-prose-underline,theme(colors.violet.300))] hover:[--tw-prose-underline-size:5px] dark:[--tw-prose-background:theme(colors.slate.900)] dark:shadow-[inset_0_calc(-1*var(--tw-prose-underline-size,3px))_0_0_var(--tw-prose-underline,theme(colors.violet.800))] dark:hover:[--tw-prose-underline-size:5px]" href="/participants/application">Click here</Link> to learn how to apply!</p>
+        <p className="font-sans text-sm">The application for Ross 2024 is now open! <Link className="font-medium dark:text-violet-400 no-underline shadow-[inset_0_-3px_0_0_var(--tw-prose-background,#fff),inset_0_calc(-1*(var(--tw-prose-underline-size,4px)+2px))_0_0_var(--tw-prose-underline,theme(colors.violet.300))] hover:[--tw-prose-underline-size:5px] dark:[--tw-prose-background:theme(colors.slate.900)] dark:shadow-[inset_0_calc(-1*var(--tw-prose-underline-size,3px))_0_0_var(--tw-prose-underline,theme(colors.violet.800))] dark:hover:[--tw-prose-underline-size:5px]" href="/participants/application">Click here</Link> to learn how to apply!</p>
       )
     }
     function notifyApplication() {
