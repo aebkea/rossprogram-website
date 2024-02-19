@@ -31,6 +31,12 @@ const nextConfig = {
         basePath: false
       },
       {
+        source: '/participants/math-topics',
+        destination: '/participants/math-at-ross/math-topics',
+        permanent: false,
+        basePath: false,
+      },
+      {
         source: '/students/to-apply',
         destination: '/participants/application',
         permanent: false,
