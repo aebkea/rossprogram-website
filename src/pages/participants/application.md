@@ -12,11 +12,11 @@ The application portal is now available. Begin your application by visiting the 
 - school transcript, and
 - work on some challenging math problems.
 
-If you have any quetions or otherwise, please feel free to email us at [ross@rossprogram.org](mailto:ross@rossprogram.org). Note that we will not provide hints on how to solve the math problems posted, but we can answer clarifying questions regarding terminology and phrasing, etc.
+If you have any questions or otherwise, please feel free to email us at [ross@rossprogram.org](mailto:ross@rossprogram.org). Note that we will not provide hints on how to solve the math problems posted, but we can answer clarifying questions regarding terminology and phrasing, etc.
 
 ## Application Deadline
 
-The deadline for Ross applications is March 15. Applications submitted after that date might not receive full consideration. The Ross Admissions Committe will start reading applications on March 16. Acceptance decisions will be emailed later that month.
+The deadline for Ross applications is March 15. Applications submitted after that date might not receive full consideration. The Ross Admissions Committe will start reading applications on March 16. We aim to have acceptance decisions emailed by mid-April.
 
 ## Costs and Financial Aid
 
