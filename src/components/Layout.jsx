@@ -187,61 +187,61 @@ export function Layout({ children, title, sectionTitle, tableOfContents }) {
     setImageOpen(true)
   }
 
-  useEffect(() => {
-    function ThemedCloseButton({ closeToast }) {
-      return (
-        <button
-          className="w-4 min-w-[16px] h-fit fill-slate-800 hover:fill-slate-500 dark:fill-white dark:hover:fill-slate-300"
-          type="button"
-          onClick={e => {
-            e.stopPropagation();
-            closeToast(e);
-          }}
-          aria-label='close'
-        >
-          <svg aria-hidden="true" viewBox="0 0 14 16">
-            <path
-              fillRule="evenodd"
-              d="M7.71 8.23l3.75 3.75-1.48 1.48-3.75-3.75-3.75 3.75L1 11.98l3.75-3.75L1 4.48 2.48 3l3.75 3.75L9.98 3l1.48 1.48-3.75 3.75z"
-            />
-          </svg>
-        </button>
-      )
-    }
-    function ToastBody({}) {
-      return (
-        <p className="font-sans text-sm">
-          The application for Ross 2024 is now open!{' '}
-          <Link
-            className="font-medium dark:text-violet-400 no-underline shadow-[inset_0_-3px_0_0_var(--tw-prose-background,#fff),inset_0_calc(-1*(var(--tw-prose-underline-size,4px)+2px))_0_0_var(--tw-prose-underline,theme(colors.violet.300))] hover:[--tw-prose-underline-size:5px] dark:[--tw-prose-background:theme(colors.slate.900)] dark:shadow-[inset_0_calc(-1*var(--tw-prose-underline-size,3px))_0_0_var(--tw-prose-underline,theme(colors.violet.800))] dark:hover:[--tw-prose-underline-size:5px]"
-            href="/participants/application"
-            onClick={() => toast.dismiss()}
-          >
-            Click here
-          </Link>
-          {' '}to learn how to apply!
-        </p>
-      )
-    }
-    function notifyApplication() {
-      toast(<ToastBody />, {
-        position: 'top-center',
-        autoClose: true,
-        hideProgressBar: false,
-        pauseOnHover: true,
-        draggable: true,
-        closeButton: ThemedCloseButton
-      })
-    }
-    if (router.pathname !== '/participants/application') {
-      notifyApplication()
-    }
-  }, [])
+  // useEffect(() => {
+  //   function ThemedCloseButton({ closeToast }) {
+  //     return (
+  //       <button
+  //         className="w-4 min-w-[16px] h-fit fill-slate-800 hover:fill-slate-500 dark:fill-white dark:hover:fill-slate-300"
+  //         type="button"
+  //         onClick={e => {
+  //           e.stopPropagation();
+  //           closeToast(e);
+  //         }}
+  //         aria-label='close'
+  //       >
+  //         <svg aria-hidden="true" viewBox="0 0 14 16">
+  //           <path
+  //             fillRule="evenodd"
+  //             d="M7.71 8.23l3.75 3.75-1.48 1.48-3.75-3.75-3.75 3.75L1 11.98l3.75-3.75L1 4.48 2.48 3l3.75 3.75L9.98 3l1.48 1.48-3.75 3.75z"
+  //           />
+  //         </svg>
+  //       </button>
+  //     )
+  //   }
+  //   function ToastBody({}) {
+  //     return (
+  //       <p className="font-sans text-sm">
+  //         The application for Ross 2024 is now open!{' '}
+  //         <Link
+  //           className="font-medium dark:text-violet-400 no-underline shadow-[inset_0_-3px_0_0_var(--tw-prose-background,#fff),inset_0_calc(-1*(var(--tw-prose-underline-size,4px)+2px))_0_0_var(--tw-prose-underline,theme(colors.violet.300))] hover:[--tw-prose-underline-size:5px] dark:[--tw-prose-background:theme(colors.slate.900)] dark:shadow-[inset_0_calc(-1*var(--tw-prose-underline-size,3px))_0_0_var(--tw-prose-underline,theme(colors.violet.800))] dark:hover:[--tw-prose-underline-size:5px]"
+  //           href="/participants/application"
+  //           onClick={() => toast.dismiss()}
+  //         >
+  //           Click here
+  //         </Link>
+  //         {' '}to learn how to apply!
+  //       </p>
+  //     )
+  //   }
+  //   function notifyApplication() {
+  //     toast(<ToastBody />, {
+  //       position: 'top-center',
+  //       autoClose: true,
+  //       hideProgressBar: false,
+  //       pauseOnHover: true,
+  //       draggable: true,
+  //       closeButton: ThemedCloseButton
+  //     })
+  //   }
+  //   if (router.pathname !== '/participants/application') {
+  //     notifyApplication()
+  //   }
+  // }, [])
 
   return (
     <>
       <ImageModal open={imageOpen} setOpen={setImageOpen} image={selectedImage} />
-      <ToastContainer toastClassName="bg-white text-slate-900 dark:bg-slate-800 dark:text-white fill-green-500" />
+      {/* <ToastContainer toastClassName="bg-white text-slate-900 dark:bg-slate-800 dark:text-white fill-green-500" /> */}
 
       <Header navigation={navigation} />
 
